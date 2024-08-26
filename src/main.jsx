@@ -8,12 +8,13 @@ import Contactroute from "./components/Contactroute/Contactroute";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
+import HeaderCard from "./components/Blogroute/HeaderCard/HeaderCard";
 
 const Applayout  = ()=>{
   return(
     <>
     <Navbar></Navbar>
-    <Header></Header>
+      <HeaderCard></HeaderCard>
     <Body></Body>
     <Footer></Footer>
     </>
