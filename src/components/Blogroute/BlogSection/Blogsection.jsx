@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronRight } from 'lucide-react'
 import React from 'react'
-import { blogcard1, blogcard2, blogcard3, blogcard4 } from '../../assets/image'
+import { blogcard1, blogcard2, blogcard3,  blogcard4 } from '../../../assets/image'
 
 const Blogsection = () => {
   return (

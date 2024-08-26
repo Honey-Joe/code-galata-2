@@ -8,17 +8,15 @@ import Contactroute from "./components/Contactroute/Contactroute";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
-import Blogsection from "./components/BlogSection/Blogsection";
-import BlogHome from "./components/Blogroute/BlogHome/BlogHome";
-import HeaderCard from "./components/Blogroute/HeaderCard/HeaderCard";
+import Blogroute from "./components/Blogroute/Blogroute";
+// import HeaderCard from "./components/Blogroute/HeaderCard/HeaderCard";
 
 const Applayout  = ()=>{
   return(
     <>
     <Navbar></Navbar>
-    {/* <Header></Header> */}
-    <BlogHome/>
-      <HeaderCard></HeaderCard>
+    <Header/>
+    {/* <HeaderCard></HeaderCard> */}
     <Body></Body>
     <Footer></Footer>
     </>
@@ -43,8 +41,8 @@ const appRouter = createBrowserRouter([
   },
   {
     path:"/Blog",
-    element:<Blogsection/>
-  },
+    element:<Blogroute/>
+  }
   
 ])
 

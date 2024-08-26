@@ -4,7 +4,7 @@ import { suganth } from "../../../assets/image"
 import { blup, design } from "../../../assets/image"
 import { Star,BookOpenText } from "lucide-react"
 import HeaderCard from "../HeaderCard/HeaderCard"
-const BlogHome = () => {
+const HomeSection = () => {
   return (
     <>
         <div className=" 2xl:container mx-auto"> 
@@ -77,4 +77,4 @@ const BlogHome = () => {
   )
 }
 
-export default BlogHome
+export default HomeSection

@@ -1,11 +1,16 @@
+
 import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
-import BlogHome from "./BlogHome/BlogHome"
+import Blogsection from "./BlogSection/Blogsection"
+import TrendingArticles from "./TrendingArticles/TrendingArticles"
 
 const Blogroute = () => {
   return (
     <>
-        <BlogHome/>
+        <Navbar/>
+        <Blogsection/>
+        <TrendingArticles/>
+        <Footer/>
     </>
   )
 }
