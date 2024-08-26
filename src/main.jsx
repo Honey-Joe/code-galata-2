@@ -10,6 +10,7 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Blogsection from "./components/BlogSection/Blogsection";
 import BlogHome from "./components/Blogroute/BlogHome/BlogHome";
+import HeaderCard from "./components/Blogroute/HeaderCard/HeaderCard";
 
 const Applayout  = ()=>{
   return(
@@ -17,6 +18,7 @@ const Applayout  = ()=>{
     <Navbar></Navbar>
     {/* <Header></Header> */}
     <BlogHome/>
+      <HeaderCard></HeaderCard>
     <Body></Body>
     <Footer></Footer>
     </>
@@ -43,6 +45,8 @@ const appRouter = createBrowserRouter([
     path:"/Blog",
     element:<Blogsection/>
   },
+    p
+  }
   
 ])
 
