@@ -4,7 +4,8 @@ import BlogHome from "./BlogHome/BlogHome"
 
 const Blogroute = () => {
   return (
-    <>
+    <>  
+        
         <BlogHome/>
     </>
   )
