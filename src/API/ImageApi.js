@@ -8,3 +8,6 @@ export const arrow= "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/arrow.png?u
 export const homeri1 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/06.jpg?updatedAt=1724598771553"
 export const homeri2 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/05.jpg?updatedAt=1724598771622"
 export const sideblub = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/bulb-6.png?updatedAt=1724605662409"
+
+// blog section trending card img 
+export const card1 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/Frame%20796.png?updatedAt=1724494882841"
