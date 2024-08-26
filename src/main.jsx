@@ -45,8 +45,6 @@ const appRouter = createBrowserRouter([
     path:"/Blog",
     element:<Blogsection/>
   },
-    p
-  }
   
 ])
 
