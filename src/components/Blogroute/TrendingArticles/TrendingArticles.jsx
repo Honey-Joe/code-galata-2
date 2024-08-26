@@ -4,7 +4,6 @@ import TrendingCard from "../TrendingCard/TrendingCard";
 const TrendingArticles = () => {
   return (
     <>
-<<<<<<< HEAD
         <div className=" 2xl:container mx-auto">
             <div className=" w-[90%] mx-auto">
                 <div className=" grid grid-cols-1 md:grid-cols-3">
@@ -38,7 +37,6 @@ const TrendingArticles = () => {
                     </div>
                 </div>
             </div>
-=======
       <div className="">
         <div className=" w-[100%] mx-auto">
           <div>
@@ -65,7 +63,6 @@ const TrendingArticles = () => {
               );
             })}
           </div>
->>>>>>> 34ad3f4ebb5c3ca17b5fba5e9c0c9d181f6c9d57
         </div>
       </div>
     </>
