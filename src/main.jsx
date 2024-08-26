@@ -8,12 +8,15 @@ import Contactroute from "./components/Contactroute/Contactroute";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
+import Blogsection from "./components/BlogSection/Blogsection";
+import BlogHome from "./components/Blogroute/BlogHome/BlogHome";
 
 const Applayout  = ()=>{
   return(
     <>
     <Navbar></Navbar>
-    <Header></Header>
+    {/* <Header></Header> */}
+    <BlogHome/>
     <Body></Body>
     <Footer></Footer>
     </>
@@ -35,6 +38,10 @@ const appRouter = createBrowserRouter([
   {
     path:"/course",
     element:<Courseroute></Courseroute>
+  },
+  {
+    path:"/Blog",
+    element:<Blogsection/>
   },
   
 ])
