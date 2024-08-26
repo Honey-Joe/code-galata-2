@@ -37,6 +37,7 @@ const TrendingArticles = () => {
                     </div>
                 </div>
             </div>
+        
       <div className="">
         <div className=" w-[100%] mx-auto">
           <div>

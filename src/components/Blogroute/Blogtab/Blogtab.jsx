@@ -24,8 +24,8 @@ export default function UnstyledTabsVertical() {
             <TabPanel value={0}>
               <TrendingArticles></TrendingArticles>
             </TabPanel>
-            <TabPanel value={1}>Second page</TabPanel>
-            <TabPanel value={2}>Third page</TabPanel>
+            <TabPanel value={1}><TrendingArticles></TrendingArticles></TabPanel>
+            <TabPanel value={2}><TrendingArticles></TrendingArticles></TabPanel>
             </div>
             
           </Tabs>
