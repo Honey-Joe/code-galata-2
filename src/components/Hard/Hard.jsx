@@ -32,7 +32,7 @@ const Hard = () => {
 
                 <div className="flex flex-col items-center text-center">
                 
-                <div className="border border-gray-200 rounded-full p-5 border-2 hover:border-blue-500 hover:border-dashed"><img
+                <div className=" border-gray-200 rounded-full p-5 border-2 hover:border-blue-500 hover:border-dashed"><img
                     src="https://ik.imagekit.io/sri05/process-icon-1.png?updatedAt=1721740548295"
                     alt="2"
                     className="hover:animate-flip-vertical-right"
@@ -52,7 +52,7 @@ const Hard = () => {
 
                 <div className="flex flex-col items-center text-center">
                 
-                <div className="border border-gray-200 rounded-full p-5 border-2 hover:border-blue-500 hover:border-dashed"><img
+                <div className=" border-gray-200 rounded-full p-5 border-2 hover:border-blue-500 hover:border-dashed"><img
                     src="https://ik.imagekit.io/sri05/process-icon-1.png?updatedAt=1721740548295"
                     alt="2"
                     className="hover:animate-flip-vertical-right"
@@ -70,7 +70,7 @@ const Hard = () => {
                 />
 
                 <div className="flex flex-col items-center text-center">
-                <div className="border border-gray-200 rounded-full p-5 border-2 hover:border-blue-500 hover:border-dashed"><img
+                <div className=" border-gray-200 rounded-full p-5 border-2 hover:border-blue-500 hover:border-dashed"><img
                     src="https://ik.imagekit.io/sri05/process-icon-1.png?updatedAt=1721740548295"
                     alt="2"
                     className="hover:animate-flip-vertical-right"
