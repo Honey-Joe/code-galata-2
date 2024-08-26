@@ -6,7 +6,7 @@ const TrendingArticles = () => {
     <>
         
       <div className="">
-        <div className=" w-[100%] mx-auto">
+        <div className=" w-[100%]">
           <div>
             <h1 className=" text-[28px] font-[poppins] font-bold">
               Trending Articles
