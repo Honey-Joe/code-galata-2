@@ -1,5 +1,4 @@
 import { TrendingCardApi } from "../../../API/TrendingCardApi";
-import Blogtab from "../Blogtab/Blogtab";
 import TrendingCard from "../TrendingCard/TrendingCard";
 
 const TrendingArticles = () => {

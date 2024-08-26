@@ -1,9 +1,7 @@
 import * as React from "react";
-import { styled } from "@mui/system";
 import { Tabs as BaseTabs, Tabs } from "@mui/base/Tabs";
 import { TabsList as BaseTabsList, TabsList } from "@mui/base/TabsList";
 import { TabPanel as BaseTabPanel, TabPanel } from "@mui/base/TabPanel";
-import { buttonClasses } from "@mui/base/Button";
 import { Tab as BaseTab, Tab, tabClasses } from "@mui/base/Tab";
 import TrendingArticles from "../TrendingArticles/TrendingArticles";
 import { ChevronRight } from "lucide-react";
