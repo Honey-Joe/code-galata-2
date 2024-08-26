@@ -37,6 +37,9 @@ const appRouter = createBrowserRouter([
     path:"/course",
     element:<Courseroute></Courseroute>
   },
+  {
+    p
+  }
   
 ])
 
