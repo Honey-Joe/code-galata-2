@@ -2,6 +2,7 @@
 import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
 import Blogsection from "./BlogSection/Blogsection"
+import Blogtab from "./Blogtab/Blogtab"
 import TrendingArticles from "./TrendingArticles/TrendingArticles"
 
 const Blogroute = () => {
@@ -10,7 +11,7 @@ const Blogroute = () => {
         
         <Navbar/>
         <Blogsection/>
-        <TrendingArticles/>
+        <Blogtab></Blogtab>
         <Footer/>
     </>
   )
