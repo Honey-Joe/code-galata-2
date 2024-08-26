@@ -58,3 +58,8 @@ export const acheivmentcard = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault
 export const acheivmentcard2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-2.png?updatedAt=1724602732946"
 export const acheivmentcard3 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-3.png?updatedAt=1724602732946"
 export const acheivmentcard4 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-4.png?updatedAt=1724602732946"
+
+export const blogcard1 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-looking-laptop-1.webp?updatedAt=1724608689550"
+export const blogcard2 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/image-1-1-150x150.webp?updatedAt=1724608689485"
+export const blogcard3 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-looking-laptop-2-150x150.jpg?updatedAt=1724608689378"
+export const blogcard4 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-looking-laptop-150x150.webp?updatedAt=1724608689349"
