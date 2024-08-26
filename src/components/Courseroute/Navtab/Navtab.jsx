@@ -9,8 +9,6 @@ import Content from '../Navcourse/Navcourse';
 import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
 
  function Navtab(children,max) {
-
-  
   var settings = {
     dots: false,
     infinite: false,
@@ -147,7 +145,6 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
     </Tabs>
       </div>
     </div>
-      
     </>
     
   );

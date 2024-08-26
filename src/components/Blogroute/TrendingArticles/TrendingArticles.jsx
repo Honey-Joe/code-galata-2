@@ -7,13 +7,15 @@ const TrendingArticles = () => {
         <div className=" 2xl:container mx-auto">
             <div className=" w-[90%] mx-auto">
                 <div className=" grid grid-cols-1 md:grid-cols-3">
-                    <div></div>
+                    <div>
+                        
+                    </div>
                     <div className=" col-span-2">
                         <div>
                             <h1 className=" text-[28px] font-[poppins] font-bold py-2">Trending Articles</h1>
                             <hr className=" mb-2 p-[1.2px] bg-[#E3E3E3]"/>
                         </div>
-                        <div className=" col-span-2 grid grid-cols-1 md:grid-cols-3 gap-4 my-10">
+                        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
                             {
                                 TrendingCardApi.map((e,index)=>{
                                     return(
