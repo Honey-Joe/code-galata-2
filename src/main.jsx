@@ -15,13 +15,10 @@ const Applayout  = ()=>{
   return(
     <>
     <Navbar></Navbar>
-<<<<<<< HEAD
     <Header/>
     {/* <HeaderCard></HeaderCard> */}
-=======
     {/* <Header></Header> */}
     <BlogHome/>
->>>>>>> e4fc3010803dd15b1a499731f29e9a43c50394a5
     <Body></Body>
     <Footer></Footer>
     </>
