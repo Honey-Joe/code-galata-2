@@ -8,9 +8,9 @@ const TrendingCard = (prop) => {
                 <div>
                     <img src={prop.timg} alt="Card"/>
                 </div>
-                <div className=" flex items-center gap-2 bg-white px-3 py-1 w-fit rounded-2xl absolute top-4 right-3">
+                <div className=" flex items-center gap-2 bg-white px-2 py-[2px] w-fit rounded-2xl absolute top-3 right-4">
                     <Eye className=" w-5"/>
-                    <p className=" font-[poppins]">{prop.view}</p>
+                    <p className=" font-[poppins] text-sm">{prop.view}</p>
                 </div>
             </div>
             <div className="px-3 py-4">
