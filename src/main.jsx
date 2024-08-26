@@ -18,7 +18,6 @@ const Applayout  = ()=>{
     <Navbar></Navbar>
     {/* <Header></Header> */}
     <BlogHome/>
-      <HeaderCard></HeaderCard>
     <Body></Body>
     <Footer></Footer>
     </>
