@@ -4,8 +4,8 @@ import TrendingCard from "../TrendingCard/TrendingCard";
 const TrendingArticles = () => {
   return (
     <>
-      <div className="">
-        <div className=" w-[100%]">
+      <div className="2xl:container mx-auto">
+        <div className=" w-[90%] mx-auto">
           <div>
             <h1 className=" text-[28px] font-[poppins] font-bold">
               Trending Articles

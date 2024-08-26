@@ -6,7 +6,7 @@ import Topcourse from "../Topcourse/Topcourse";
 const Body = () => {
   return (
     <>
-      <div className="2xl:container mx-auto bg-[#FCFCFC]">
+      <div className="max-w-[100%] mx-auto bg-[#FCFCFC]">
         <div className="w-[95%] mx-auto grid grid-cols-1 lg:grid-cols-2">
           <div>
             <YoutubeVid></YoutubeVid>

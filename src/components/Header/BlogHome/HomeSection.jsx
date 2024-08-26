@@ -7,7 +7,7 @@ import HeaderCard from "../HeaderCard/HeaderCard"
 const HomeSection = () => {
   return (
     <>
-        <div className=" 2xl:container mx-auto"> 
+        <div className=" max-w-[100%] mx-auto"> 
             <div className=" w-[90%] lg:w-[90%] mx-auto my-20 relative">
                 <div className=" grid grid-cols-1 xl:grid-cols-2 w-full items-center">
                     <div className=" md:order-1 lg:pt-0">

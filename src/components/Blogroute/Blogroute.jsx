@@ -1,5 +1,6 @@
 
 import Footer from "../Footer/Footer"
+import Header from "../Header/Header"
 import Navbar from "../Navbar/Navbar"
 import Blogsection from "./BlogSection/Blogsection"
 import Blogtab from "./Blogtab/Blogtab"
@@ -10,6 +11,8 @@ const Blogroute = () => {
     <>  
         
         <Navbar/>
+
+        <Header></Header>
         <Blogsection/>
         <Blogtab></Blogtab>
         <Footer/>

@@ -5,7 +5,7 @@ import { blogcard1, blogcard2, blogcard3,  blogcard4 } from '../../../assets/ima
 const Blogsection = () => {
   return (
     <>
-        <div className='2xl:container mx-auto py-11'>
+        <div className='max-w-[100%] mx-auto my-28'>
             <div className='w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto'>
                 <div className='flex flex-col gap-4'>
                   <div className='flex justify-start'>
