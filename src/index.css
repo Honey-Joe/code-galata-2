@@ -1,0 +1,150 @@
+@font-face {
+  font-family: LexendDeca;
+  src: url(./assets/font/LexendDecaRegular.ttf);
+}
+@font-face {
+  font-family: lexend;
+  src: url(./assets/font/LexendDecaRegular.ttf);
+}
+@font-face {
+  font-family: hindu;
+  src: url(./assets/font/Hind-Regular.ttf);
+  
+}
+@font-face {
+  font-family: Hind;
+  src: url(./assets/font/Hind-Regular.ttf);
+  
+}
+@font-face {
+  font-family: dmsans;
+  src: url(./assets/fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: dmsans-b;
+  src: url(./assets/fonts/DMSans-Bold.ttf);
+}
+@font-face {
+  font-family: helvetica;
+  src: url(./assets/font/Helvetica.ttf);
+}
+@font-face {
+  font-family: helvetica-b;
+  src: url(./assets/font/Helvetica-Bold.ttf);
+}
+@font-face {
+  font-family: helvetica-bo;
+  src: url(./assets/font/Helvetica-BoldOblique.ttf);
+}
+@font-face {
+  font-family:manrope;
+  src: url(./assets/font/manrope-regular.otf);
+}
+@font-face {
+  font-family: manrope-eb;
+  src: url(./assets/font/manrope-extrabold.otf);
+}
+@font-face {
+  font-family: manrope-l;
+  src: url(./assets/font/manrope-light.otf);
+}
+@font-face {
+  font-family: manrope-m;
+  src: url(./assets/font/manrope-medium.otf);
+}
+@font-face {
+  font-family: manrope-b;
+  src: url(./assets/font/manrope-bold.otf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+#move{
+  transition: width 0.5s;
+}
+#cardbg{
+  position: relative;
+}
+#review{
+  background: linear-gradient(90deg, #1176F0 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+#review2{
+  background:  linear-gradient(90deg, #1176F0 0%, rgba(255, 255, 255, 0.5) 100%);
+
+}
+#certi{
+  box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+}
+
+
+#bg::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; 
+  overflow: hidden;
+  z-index: -1;
+  border-radius: 16px;
+}
+#bg:hover::after{
+  transition: 1s;
+  transform: rotateY(3.142rad);
+  background-image: linear-gradient(220deg, #1176F0 55%, #5BA5FF 56%);
+  /* transform: rotate3d(0, 1, 0.5, 3.142rad); */
+} 
+
+@media screen and (min-width: 1285px) {
+  #change{
+    display: flex;
+    flex-direction:  row;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+  #text{
+    padding: 0px 280px;
+    padding-top: 14px;
+  }
+  #change{
+    display: flex;
+    flex-direction:  row;
+  }
+}
+
+#student{
+  position: relative;
+}
+#student::after{
+  content: '';
+  bottom: 3.5px;
+  width: 100%;
+  height: 1.3px;
+  background-color: #1A2D62;
+  position: absolute;
+}
+#course{
+  position: relative;
+}
+#course::after{
+  content: '';
+  bottom: 3.5px;
+  width: 100%;
+  height: 1.3px;
+  background-color: #1A2D62;
+  position: absolute;
+}
+
+#move{
+  transition: width 0.5s;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
