@@ -23,7 +23,7 @@ const Achievment = () => {
                 Advance Your Career Path
               </p>
             </div>
-            <div className=" grid xl:grid-cols-4 gap-5 md:grid-cols-2 lg:grid-cols-2 grid-cols-1">
+            <div className=" grid xl:grid-cols-4 gap-5 md:grid-cols-2 lg:grid-cols-3 grid-cols-1">
               <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
