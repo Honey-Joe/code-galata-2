@@ -1,6 +1,7 @@
 import { dimg } from "../../../assets/image"
 import { User,CalendarDays,MessageCircle,Search} from "lucide-react"
 import DuringThisProgram from "../DuringThisProgram/DuringThisProgram"
+import Blogform from "../Blogform/Blogform"
 const BlogDetails = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const BlogDetails = () => {
                             <h1 className=" md:py-12 md:px-12 px-8 py-8 lg:pr-40 text-lg md:text-xl text-[#39557E] font-bold">“ urabitur varius eros rutrum consequat Mauris sollicitudin enim condimentum luctus enim justo non molestie nisl ”</h1>
                         </div>
                         <DuringThisProgram/>
+                        <Blogform></Blogform>
                     </div>
 
                     <div className=" py-10">
@@ -64,6 +66,8 @@ const BlogDetails = () => {
                             </div>
                         </div>
                         {/* Categories Card  End*/}
+                        
+
                     </div>
                 </div>
             </div>
