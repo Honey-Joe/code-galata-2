@@ -12,15 +12,15 @@ const BlogDetails = () => {
                             <img src={dimg} alt="DetailsImage" className=" rounded-lg w-full"/>
                         </div>
                         <div className=" flex gap-5 items-center py-5">
-                            <div className=" flex items-center gap-2">
+                            <div className="flex items-center gap-2">
                                 <User className=" stroke-1 w-5 stroke-[#1390EB]"/>
                                 <p className=" font-[poppins] text-sm text-[#39557e]">Code Galatta</p>
                             </div>
-                            <div className=" flex items-center gap-2">
+                            <div className="flex items-center gap-2">
                                 <CalendarDays className=" stroke-1 w-5 stroke-[#1390EB]"/>
                                 <p className=" font-[poppins] text-sm text-[#39557e]">June 22, 2023</p>
                             </div>
-                            <div className=" flex items-center gap-2">
+                            <div className="flex items-center gap-2">
                                 <MessageCircle className=" stroke-1 w-5 stroke-[#1390EB]"/>
                                 <p className=" font-[poppins] text-sm text-[#39557e]">No Comments</p>
                             </div>
