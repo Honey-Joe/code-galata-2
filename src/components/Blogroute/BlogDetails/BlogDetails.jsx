@@ -21,16 +21,6 @@ const BlogDetails = () => {
                                 <p className=" font-[poppins] text-sm text-[#39557e]">June 22, 2023</p>
                             </div>
                             <div className="flex items-center gap-2">
-                        <div className=" flex gap-2 md:gap-5 items-center py-5 flex-wrap">
-                            <div className=" flex items-center gap-1 md:gap-2 text-nowrap">
-                                <User className=" stroke-1 w-5 stroke-[#1390EB]"/>
-                                <p className=" font-[poppins] text-sm text-[#39557e]">Code Galatta</p>
-                            </div>
-                            <div className=" flex items-center gap-1 md:gap-2 text-nowrap">
-                                <CalendarDays className=" stroke-1 w-5 stroke-[#1390EB]"/>
-                                <p className=" font-[poppins] text-sm text-[#39557e]">June 22, 2023</p>
-                            </div>
-                            <div className=" flex items-center gap-1 md:gap-2 text-nowrap">
                                 <MessageCircle className=" stroke-1 w-5 stroke-[#1390EB]"/>
                                 <p className=" font-[poppins] text-sm text-[#39557e]">No Comments</p>
                             </div>
