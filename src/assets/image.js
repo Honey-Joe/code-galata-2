@@ -63,3 +63,6 @@ export const blogcard1 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-
 export const blogcard2 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/image-1-1-150x150.webp?updatedAt=1724608689485"
 export const blogcard3 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-looking-laptop-2-150x150.jpg?updatedAt=1724608689378"
 export const blogcard4 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-looking-laptop-150x150.webp?updatedAt=1724608689349"
+
+// blog details page image 
+export const dimg ="https://ik.imagekit.io/jjyo3gsee/HI-Study/image/blog_standard01.jpg?updatedAt=1724750390606"
