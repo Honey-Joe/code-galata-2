@@ -12,7 +12,7 @@ export default function UnstyledTabsVertical() {
       <div className="max-w-[100%] mx-auto">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <Tabs defaultValue={0} orientation="vertical">
-            <div className=" grid grid-cols-4 col-span-1">
+            <div className=" grid grid-cols-4 col-span-1 gap-14">
             <TabsList className="w-[100%] h-[100%] md:flex flex-col gap-5 py-7 bg-[#F3F3F6] rounded-lg hidden">
               <Tab className="flex justify-between bg-[#06854D] px-2 py-2 font-[poppins] text-[14px] items-center text-white font-medium">Trending Articles <ChevronRight size={16}></ChevronRight></Tab>
               <Tab className="flex justify-between  px-2 py-2 font-[poppins] text-[14px] items-center text-[#707070] font-medium ">AI & ML <ChevronRight size={16}></ChevronRight></Tab>

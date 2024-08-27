@@ -4,7 +4,7 @@ import InstructorCard from "../InstructorCard/InstructorCard"
 const Instructor = () => {
   return (
     <>
-        <div className=" 2xl:container mx-auto mt-20">
+        <div className="max-w-[100%] mx-auto mt-20">
             <div className=" w-[90%] lg:w-[90%] mx-auto">
                 <div className=" text-center">
                     <h1 className=" text-[24px] font-bold lg:text-[42px] md:text-[24px] font-[LexendDeca] text-[#1176F0]">Meet our Instructors</h1>

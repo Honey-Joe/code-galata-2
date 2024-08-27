@@ -30,7 +30,7 @@ const Faq = () => {
     ]
   return (
     <>
-        <div className=" 2xl:container mx-auto bg-white pb-20 py-14">
+        <div className="max-w-[100%] mx-auto bg-white pb-20 py-14">
             <div className="lg:w-[90%] xl:w-[90%] mx-auto py-20 w-[90%]">
                 <div className=" grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
                     <div className=" relative">

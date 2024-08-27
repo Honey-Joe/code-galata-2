@@ -2,7 +2,7 @@ import React from "react";
 
 const Hard = () => {
   return (
-    <div className="2xl:container mx-auto pt-36">
+    <div className=" max-w-[100%] mx-auto pt-36">
         <div className=" w-[90%] mx-auto">
             <div className="text-center mb-10 space-y-4">
                 <h1 className="text-[19px] font-[poppins] font-bold">WORK PROCESS</h1>

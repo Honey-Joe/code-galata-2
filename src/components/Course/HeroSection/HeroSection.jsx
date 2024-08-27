@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <>
     {/* bg-[#7bb4fa] */}
-      <div className=" 2xl:container mx-auto ">
+      <div className=" max-w-[100%] mx-auto ">
         <div className=" lg:w-[90%] mx-auto w-[90%] mt-20">
           <div className=" flex flex-col items-center justify-center py-10">
             <div className=" relative">

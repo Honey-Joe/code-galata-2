@@ -7,12 +7,10 @@ import Blogtab from "./Blogtab/Blogtab"
 const Blogroute = () => {
   return (
     <>  
-        
-        <Navbar/>
-
-        <Blogsection/>
-        <Blogtab></Blogtab>
-        <Footer/>
+      <Navbar/>
+      <Blogsection/>
+      <Blogtab></Blogtab>
+      <Footer/>
     </>
   )
 }

@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
     {/* bg-[#f1e4fd] */}
-        <div className=" 2xl:container mx-auto bg-white">
+        <div className=" max-w-[100%] mx-auto bg-white">
             <div className="lg:w-[90%] xl:w-[90%] w-[90%] mx-auto">
                 <div className=" text-center pt-28 flex justify-center flex-col items-center">   
                     <h2 className="  text-center font-[LexendDeca] font-medium text-[#2F57EF] bg-[#E4E9FD] py-2 px-5  rounded-full w-fit">CONTACT US</h2>

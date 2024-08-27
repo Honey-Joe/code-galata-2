@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className=' bg-[#061E43]'>
-          <div className=' 2xl:container w-[90%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-24 gap-10'> 
+        <div className=' bg-[#061E43] max-w-[100%]'>
+          <div className='w-[90%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-24 gap-10 '> 
             <div className=' flex flex-col gap-3 pb-5 md:pb-0'>
               <img className=" pt-2 -ml-2" src={navlogo1} alt="logo" width={150}/>
               <p className=' text-[#B2BDcD] text-wrap font-[hindu] text-[16px] leading-7 pt-3'>when an unknown printer took galley of type and scrambled it to make pspecimen bookt has.
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className=' flex lg:justify-start lg:pl-20 '>
+            <div className=' flex lg:justify-start lg:pl-20'>
               <div className=' flex flex-col gap-4 '>
                 <h1 className=' text-white font-[lexend] text-[24px] font-bold'>
                 Courses
@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className=' flex lg:justify-center'>
+            <div className=' flex lg:justify-center xl:justify-end'>
                   <div className='flex flex-col gap-4 '>
                     <h1 className=' text-white font-[lexend] text-[24px] font-bold pb-5'>
                       Working Hours
