@@ -53,7 +53,7 @@ const DuringThisProgram = () => {
           idealorem.
         </p>
         <hr />
-        <div className="flex justify-between  py-8 items-center">
+        <div className="flex justify-between gap-5 py-8 items-center">
           <div className="flex gap-5 items-center">
             <div>
               <p className="font-[poppins] font-semibold text-base text-[#082a5e]">
