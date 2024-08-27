@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { TrendingCardApi } from "../../../API/TrendingCardApi";
 import TrendingCard from "../TrendingCard/TrendingCard";
 
@@ -16,7 +17,8 @@ const TrendingArticles = () => {
             {TrendingCardApi.map((e, index) => {
               return (
                 <>
-                  <div key={index}>
+                <Link to={"/blogdetails"}>
+                <div key={index}>
                     <TrendingCard
                       timg={e.timg}
                       view={e.view}
@@ -26,6 +28,8 @@ const TrendingArticles = () => {
                       ctn={e.ctn}
                     />
                   </div>
+                </Link>
+                  
                 </>
               );
             })}

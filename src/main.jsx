@@ -9,6 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Blogroute from "./components/Blogroute/Blogroute";
+import BlogDetails from "./components/Blogroute/BlogDetails/BlogDetails";
 // import HeaderCard from "./components/Blogroute/HeaderCard/HeaderCard";
 
 const Applayout  = ()=>{
@@ -44,6 +45,10 @@ const appRouter = createBrowserRouter([
     path:"/Blog",
     element:<Blogroute></Blogroute>
   },
+  {
+    path:"/blogdetails",
+    element:<BlogDetails></BlogDetails>
+  }
 
   
 ])
