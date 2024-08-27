@@ -1,4 +1,3 @@
-import React from "react";
 import {
   acheivmentcard,
   acheivmentcard2,
@@ -10,7 +9,7 @@ import CountUp from "react-countup";
 const Achievment = () => {
   return (
     <>
-      <div className="2xl:container mx-auto py-12 my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
+      <div className="max-w-[100%] mx-auto py-12 my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <div>
             <div className="flex justify-center py-5">

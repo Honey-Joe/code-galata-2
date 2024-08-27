@@ -1,11 +1,10 @@
-import React from "react";
 import { Clock, FileText, Star, Users } from "lucide-react";
 import { author_image } from "../../../assets/image";
 
 const Header = () => {
   return (
     <>
-      <div className="mx-auto w-[100%] bg-[#041734]">
+      <div className="max-w-[100%] bg-[#041734]">
         <div className="w-[100%] mx-auto grid grid-cols-1 pt-40 pb-28 bg-[#041734]">
           <div className="w-[90%] mx-auto">
           <div className="flex flex-col gap-3 items-start">

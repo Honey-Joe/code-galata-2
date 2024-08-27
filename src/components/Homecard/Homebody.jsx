@@ -1,4 +1,3 @@
-import React from "react";
 import Homecard from "./Homecard";
 
 const homes = [
@@ -43,7 +42,7 @@ const homes = [
 
 const Homebody = () => {
   return (
-    <div className="2xl:container py-8">
+    <div className="max-w-[100%] py-8">
       <div className="w-[90%] mx-auto grid grid-cols-1">
         <div className="">
           <h1 className="text-[18px] text-blue-600 text-center py-5">

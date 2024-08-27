@@ -1,7 +1,5 @@
-import React from 'react'
 import ReviewSection from '../ReviewSection/ReviewSection'
 import Topcourse from '../Topcourse/Topcourse'
-import Course from '../Course/Course'
 import NewsLetter from '../NewsLetter/NewsLetter'
 import HowWeWork from '../HowWeWork/HowWeWork'
 import Homebody from '../Homecard/Homebody'
@@ -11,12 +9,18 @@ const Body = () => {
   return (
     <>
       {/* <Course></Course> */}
+      <div className='max-w-[100%]'>
+      <div>
       <Achievment></Achievment>
       <Homebody></Homebody>
       <Topcourse></Topcourse>
       <HowWeWork/>
       <ReviewSection></ReviewSection>
       <NewsLetter/>
+      </div>
+      </div>
+      
+      
     </>
   )
 }

@@ -1,6 +1,5 @@
-import React from 'react'
-import { profile, quote, quote2, reviwe } from '../../assets/image'
 import { Star } from 'lucide-react'
+import { quote2, reviwe } from '../../assets/image'
 
 const ReviewSectionCard = () => {
   return (

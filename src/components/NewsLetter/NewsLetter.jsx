@@ -4,7 +4,7 @@ const NewsLetter = () => {
 
   return (
     <>
-        <div className=" 2xl:container mx-auto">
+        <div className="max-w-[100%] mx-auto">
             <div>
                 <div className=" text-center bg-[#2f57ef] w-full h-full md:p-[100px] py-[70px] px-5">
                     <div className=" flex justify-center pb-10 flex-col items-center">

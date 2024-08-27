@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -44,7 +43,7 @@ function ReviewSection() {
   };
   return (
     <>
-      <div className="2xl:container mx-auto">
+      <div className="max-w-[100%] mx-auto">
         <div className="w-[90%] mx-auto grid grid-cols-1 my-11 gap-4 px-5 py-2">
           <div className="flex items-center">
             <div className='px-5 py-[5px] rounded-3xl bg-[#2581F2] relative left-3'>

@@ -1,16 +1,14 @@
 import { arrow, line, sideblub } from "../../../API/ImageApi"
-import { homeProfile } from "../../../assets/image"
 import { suganth } from "../../../assets/image"
-import { blup, design } from "../../../assets/image"
 import { Star,BookOpenText } from "lucide-react"
 import HeaderCard from "../HeaderCard/HeaderCard"
 const HomeSection = () => {
   return (
     <>
-        <div className=" max-w-[100%] mx-auto"> 
+        <div className="max-w-[100%]"> 
             <div className=" w-[90%] lg:w-[90%] mx-auto my-20 relative">
                 <div className=" grid grid-cols-1 xl:grid-cols-2 w-full items-center">
-                    <div className=" md:order-1 lg:pt-0">
+                    <div className=" md:order-1 flex flex-col lg:pt-0">
                         <div className=" md:pt-10 pt-5">
                             <div className=" flex items-center gap-2">
                                 <h1 className=" text-[26px] font-[hindu] lg:text-[60px] font-bold text-[#221859] md:leading-tight lg:leading-none md:text-[54px] text-nowrap">Embark On A</h1>
@@ -53,14 +51,14 @@ const HomeSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" md:order-2 lg:flex lg:justify-center flex justify-center ">
+                    <div className=" md:order-2 lg:flex lg:justify-end flex justify-center ">
                         <HeaderCard />
                     </div>
                 </div>
                 <div className=" w-10 absolute top-[12%] right-[50%] xl:block hidden">
                     <img src={sideblub} alt="blub" className=""/>
                 </div>
-                <div className="animate-pulse duration-700 absolute top-[12%] right-[10%] border border-[#553CDF] rounded-md xl:block hidden">
+                <div className="animate-pulse duration-700 absolute top-[12%] right-[5%] border border-[#553CDF] rounded-md xl:block hidden">
                     <div className=" flex gap-3 items-start p-1 px-2">
                         <div>
                             <BookOpenText className=" w-12 h-12 stroke-white stroke-1 p-1 rounded-md bg-[#553CDF]"/>
