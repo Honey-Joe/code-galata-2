@@ -12,7 +12,7 @@ const TrendingArticles = () => {
             </h1>
             <hr className=" mb-2 p-[1.2px] bg-[#E3E3E3]" />
           </div>
-          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
+          <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 my-10">
             {TrendingCardApi.map((e, index) => {
               return (
                 <>
