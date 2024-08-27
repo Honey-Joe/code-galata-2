@@ -2,6 +2,7 @@ import { dimg } from "../../../assets/image"
 import { User,CalendarDays,MessageCircle,Search} from "lucide-react"
 import DuringThisProgram from "../DuringThisProgram/DuringThisProgram"
 import Blogform from "../Blogform/Blogform"
+import PopularTag from "../PopularTag/PopularTag"
 const BlogDetails = () => {
   return (
     <>
@@ -67,6 +68,7 @@ const BlogDetails = () => {
                         </div>
                         {/* Categories Card  End*/}
                         
+                        <PopularTag/>
 
                     </div>
                 </div>
