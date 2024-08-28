@@ -10,8 +10,8 @@ const BlogDetails = () => {
         <div className=" max-w-[100%]">
             <Navbar></Navbar>
             <div className=" w-[90%] mx-auto my-11">
-                <div className=" grid grid-cols-1 lg:grid-cols-3 gap-16">
-                    <div className=" py-10 col-span-2">
+                <div className=" grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-16">
+                    <div className=" py-5 lg:py-10 col-span-2 md:col-span-2">
                         <div>
                             <img src={dimg} alt="DetailsImage" className=" rounded-lg w-full"/>
                         </div>
@@ -37,7 +37,7 @@ const BlogDetails = () => {
                         <Blogform></Blogform>
                     </div>
 
-                    <div className=" py-10">
+                    <div className=" pb-5 lg:py-10 col-span-2 lg:col-span-1">
                         <form action="get" className=" w-full">
                             <div className=" relative">
                                 <input type="text" className=" shadow-md p-4 w-full rounded-lg outline-none border-2" placeholder=" Search here"/>
@@ -71,7 +71,6 @@ const BlogDetails = () => {
                         {/* Categories Card  End*/}
                         
                         <PopularTag/>
-
                     </div>
                 </div>
             </div>
