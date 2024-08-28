@@ -3,11 +3,13 @@ import { User,CalendarDays,MessageCircle,Search} from "lucide-react"
 import DuringThisProgram from "../DuringThisProgram/DuringThisProgram"
 import Blogform from "../Blogform/Blogform"
 import PopularTag from "../PopularTag/PopularTag"
+import Navbar from "../../Navbar/Navbar"
 const BlogDetails = () => {
   return (
     <>
         <div className=" max-w-[100%]">
-            <div className=" w-[90%] mx-auto">
+            <Navbar></Navbar>
+            <div className=" w-[90%] mx-auto my-11">
                 <div className=" grid grid-cols-1 lg:grid-cols-3 gap-16">
                     <div className=" py-10 col-span-2">
                         <div>
