@@ -35,7 +35,7 @@ const CourseTab = () => {
             breakpoint: 480,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 1
             }
           }
         ]
@@ -44,7 +44,7 @@ const CourseTab = () => {
       return (
         <>
         <div className='max-w-[100%]'>
-          <div className='lg:w-[90%] mx-auto grid grid-cols-1 py-[40px]'>
+          <div className='w-[85%] lg:w-[90%] mx-auto py-[40px]'>
           <Tabs defaultValue={1}>
           <TabsList className='pb-3'>
             <div className='slider-container'>
