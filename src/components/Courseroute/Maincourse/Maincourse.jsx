@@ -1,3 +1,4 @@
+import Footer from "../../Footer/Footer"
 import Navbar from "../../Navbar/Navbar"
 import CourseTab from "./CourseTab/CourseTab"
 import Headercarousel from "./Headercarousel/Headercarousel"
@@ -10,6 +11,7 @@ const Maincourse = () => {
             <Navbar></Navbar>
             <Headercarousel></Headercarousel>
             <CourseTab></CourseTab>
+            <Footer></Footer>
         </div>
     </div> 
     </>
