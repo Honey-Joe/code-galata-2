@@ -2,7 +2,7 @@ import React from 'react';
 
 const Homecard = ({ home }) => {
   return (
-    <div className='flex flex-col gap-2 items-center py-10 px-5 justify-center bg-white' id='certi'>
+    <div className='flex flex-col gap-2 items-center py-10 px-5 justify-center bg-white hover:scale-[1.01]' id='certi'>
       <div className=''>
         <img src={home.image} alt={home.name} className='' />
       </div>
