@@ -24,7 +24,7 @@ const Achievment = () => {
               </p>
             </div>
             <div className=" grid xl:grid-cols-4 gap-5 md:grid-cols-2 lg:grid-cols-2 grid-cols-1">
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg " id="certi">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard} alt="" />
@@ -44,7 +44,7 @@ const Achievment = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg " id="certi">
                 <div className="flex flex-col justify-center items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard2} alt="" />
@@ -64,7 +64,7 @@ const Achievment = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg " id="certi">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard3} alt="" />
@@ -84,7 +84,7 @@ const Achievment = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg " id="certi">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard4} alt="" />
