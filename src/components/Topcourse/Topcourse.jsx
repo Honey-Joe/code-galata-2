@@ -8,7 +8,7 @@ const Topcourse = () => {
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
           <div className="flex items-start flex-col gap-3">
             <div className="bg-[#2f55ef40] px-4 rounded-full py-2 flex items-start">
-              <p className="font-[LexendDeca] text-[14px] font-medium text-[#1176F0]">
+              <p className="font-[poppins] text-[14px] font-medium text-[#1176F0]">
                 Top Courses
               </p>
             </div>

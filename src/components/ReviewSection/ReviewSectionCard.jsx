@@ -16,11 +16,11 @@ const ReviewSectionCard = () => {
                 </div>
                 <hr />
                 <div className='flex justify-center gap-3'>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
                 </div>
                 <div className=' flex flex-col items-center justify-center'>
                   <p className=' font-bold font-[poppins]'>SUGANTH PV</p>

@@ -45,7 +45,7 @@ const Homebody = () => {
     <div className="max-w-[100%] py-8">
       <div className="w-[90%] mx-auto grid grid-cols-1">
         <div className="">
-          <h1 className="text-[18px] text-blue-600 text-center py-5">
+          <h1 className="text-[18px] text-[#1176F0] text-center py-5">
             What we Provides?
           </h1>
           <h2 className="text-[42px]  font-semibold text-center py-5">

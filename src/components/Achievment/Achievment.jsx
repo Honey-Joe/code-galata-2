@@ -13,13 +13,13 @@ const Achievment = () => {
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <div>
             <div className="flex justify-center py-5">
-              <p className="py-1 px-3 bg-[#E7EFFC] text-[#1363df] rounded-lg font-[poppins] font-medium">
+              <p className="py-1 px-3 bg-[#E7EFFC] text-[#1176F0] rounded-lg font-[poppins] font-medium">
                 Worldwide Our Achievment
               </p>
             </div>
             <div className="flex justify-center py-5">
               <p className="font-[poppins] font-semibold text-[36px] text-[#082a5e] text-center">
-                Grow You <span className="text-[#1363df]">Skills</span> To
+                Grow You <span className="text-[#1176F0]">Skills</span> To
                 Advance Your Career Path
               </p>
             </div>
@@ -45,7 +45,7 @@ const Achievment = () => {
                 </div>
               </div>
               <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
-                <div className="flex flex-col justify-center items-center w-full">
+                <div className="flex flex-col justify-center items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard2} alt="" />
                   </div>

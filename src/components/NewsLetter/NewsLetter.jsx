@@ -6,13 +6,13 @@ const NewsLetter = () => {
     <>
         <div className="max-w-[100%] mx-auto">
             <div>
-                <div className=" text-center bg-[#2f57ef] w-full h-full md:p-[100px] py-[70px] px-5">
+                <div className=" text-center bg-[#1176F0] w-full h-full md:p-[100px] py-[70px] px-5">
                     <div className=" flex justify-center pb-10 flex-col items-center">
                         <span> 
-                            <h1 className=" font-[euclid] font-medium text-[#ffffff] bg-[#a6afc349] p-2 px-5 rounded-full text-nowrap">GET LATEST HISTUDY UPDATES</h1>
+                            <h1 className=" font-[poppins] font-medium text-[#ffffff] bg-[#a6afc349] p-2 px-5 rounded-full text-nowrap">GET LATEST HISTUDY UPDATES</h1>
                         </span>
                         <h1 className=" text-[44px] font-bold text-white py-[15px] font-[poppins]">Subscribe Our Newsletter</h1>
-                        <p className=" xl:px-[285px] font-[euclid] text-[18px] text-white text-lg pb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, delectus. Accusamus ea dicta culpa soluta nostrum magnam perferendis!</p>
+                        <p className=" xl:px-[285px] font-[poppins] text-[18px] text-white text-lg pb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, delectus. Accusamus ea dicta culpa soluta nostrum magnam perferendis!</p>
                         <div className="">
                             <div>
                                 <div className=" w-fit h-fit md:relative">
@@ -28,12 +28,12 @@ const NewsLetter = () => {
                                 <div className=" grid grid-cols-1 md:grid-cols-2 pt-5 gap-y-2">
                                     <div className="  md:border-r-[0.5px] md:border-red-50 md:border-r-slate-500 hover:-translate-y-2 transition">
                                             <h1 className=" text-[50px] font-[poppins] font-bold text-white">500+</h1>
-                                            <span className=" font-[euclid] text-[20px] text-white font-bold">Successfully Trained</span>
+                                            <span className=" font-[poppins] text-[20px] text-white font-bold">Successfully Trained</span>
                                             <p className=" text-white pt-2 font-medium">Learners & counting</p>
                                     </div>
                                     <div className=" hover:-translate-y-2 transition">
                                         <h1 className=" text-[50px] font-[poppins] font-bold text-white">500+</h1>
-                                        <span className=" font-[euclid] text-[20px] text-white font-bold">Certification Students</span>
+                                        <span className=" font-[poppins] text-[20px] text-white font-bold">Certification Students</span>
                                         <p className=" text-white pt-2 font-medium">Online Course</p>
                                     </div>
                                 </div>

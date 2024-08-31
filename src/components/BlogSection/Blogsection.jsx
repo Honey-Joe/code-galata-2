@@ -1,6 +1,7 @@
 import { ArrowRight, ChevronRight } from 'lucide-react'
 import React from 'react'
-import { blogcard1, blogcard2, blogcard3,  blogcard4 } from '../../../assets/image'
+import { blogcard1, blogcard2, blogcard3,  blogcard4 } from '../../assets/image'
+import { Link } from 'react-router-dom'
 
 const Blogsection = () => {
   return (
@@ -16,17 +17,19 @@ const Blogsection = () => {
                   </div>
                 </div>
                 <div className='flex justify-end items-center'>
+                  <Link to={"/Blog"}>
                   <button className='bg-blue-600 px-8 py-4 flex gap-2 text-white rounded-lg font-[poppins] text-[18px]'>See All Articles <ArrowRight></ArrowRight></button>
+                  </Link>
                 </div>
             </div>
-            <div className='w-[90%] grid grid-cols-1 gap-5 lg:grid-cols-2 mx-auto my-5'>
-              <div className='flex flex-col shadow-lg hover:scale-105 transition'>
+            <div className='w-[90%] grid grid-cols-1 gap-10 lg:grid-cols-2 mx-auto my-5'>
+              <div className='flex flex-col  hover:scale-[1.01] transition' id='certi'>
                 <div className=''>
                   <img src={blogcard1} alt="blog card1 " className='rounded-t-lg'/>
                 </div>
-                <div className='bg-white px-5 py-5 flex flex-col gap-3 rounded-b-lg'>
+                <div className='bg-white px-5 py-5 flex flex-col gap-3 rounded-xl'>
                   <div>
-                    <p className='font-[poppins] font-bold text-[32px] text-[#192335] hover:text-[#2f57ef]'>Difficult Things About Education.</p>
+                    <p className='font-[poppins] font-bold text-[30px] text-[#192335] hover:text-[#2f57ef]'>Difficult Things About Education.</p>
                   </div>
                   <div>
                     <p className='text-[18px] font-[poppins] text-[#6b7385] '>There are many variations of passages of Lorem Ipsum available,</p>
@@ -36,8 +39,8 @@ const Blogsection = () => {
                   </div>
                 </div>
               </div>
-              <div className='flex flex-col gap-10'>
-                  <div className='flex gap-3 bg-white shadow-2xl hover:scale-105 transition'>
+              <div className='flex flex-col gap-12' >
+                  <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
                     <div>
                     <img src={blogcard2} alt="blog card 2" className='rounded-l-lg'/>
 
@@ -52,7 +55,7 @@ const Blogsection = () => {
 
                     </div>
                   </div>
-                  <div className='flex gap-3 bg-white shadow-2xl hover:scale-105 transition'>
+                  <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
                     <div>
                     <img src={blogcard4} alt="blog card 2" className='rounded-l-lg'/>
 
@@ -67,7 +70,7 @@ const Blogsection = () => {
 
                     </div>
                   </div>
-                  <div className='flex gap-3 bg-white shadow-2xl hover:scale-105 transition'>
+                  <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
                     <div>
                     <img src={blogcard3} alt="blog card 2" className='rounded-l-lg'/>
 

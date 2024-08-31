@@ -56,7 +56,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
             <div>
         <Tab value={1} slotProps={{
             root: ({ selected, disabled }) => ({
-              className: `font-[LexendDeca]  border-b-4 ${
+              className: `font-[poppins]  border-b-4 ${
                 selected
                   ? 'text-[#1363df] border-b-4 border-[#1363df] '
                   : 'text-[#39557e]'
@@ -73,7 +73,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
             <div>
         <Tab value={2} slotProps={{
             root: ({ selected, disabled }) => ({
-              className: `font-[LexendDeca] border-b-4 ${
+              className: `font-[poppins] border-b-4 ${
                 selected
                   ? 'text-[#1363df] border-b-4 border-[#1363df] '
                   : 'text-[#39557e]'
@@ -92,7 +92,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
             <div>
         <Tab value={3} slotProps={{
             root: ({ selected, disabled }) => ({
-              className: `font-[LexendDeca]  border-b-4 ${
+              className: `font-[poppins]  border-b-4 ${
                 selected
                   ? 'text-[#1363df] border-b-4 border-[#1363df] '
                   : 'text-[#39557e]'
@@ -112,7 +112,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
             <div>
               <Tab value={4} slotProps={{
             root: ({ selected, disabled }) => ({
-              className: `font-[LexendDeca] border-b-4 ${
+              className: `font-[poppins] border-b-4 ${
                 selected
                   ? 'text-[#1363df] border-b-4 border-[#1363df] '
                   : 'text-[#39557e]'

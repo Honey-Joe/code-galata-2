@@ -18,7 +18,7 @@ const TrendingArticles = () => {
               return (
                 <>
                 <Link to={"/blogdetails"}>
-                <div key={index}>
+                <div key={index} id="certi" className="hover:scale-[1.01]">
                     <TrendingCard
                       timg={e.timg}
                       view={e.view}

@@ -33,7 +33,7 @@ const Blogform = () => {
         <div className="w-[100%] grid grid-cols-1 my-5 lg:my-10 gap-5">
           <div className="flex flex-col gap-3">
             <div>
-              <p className="font-[poppins] text-[26px] font-semibold text-[#082a5e] ">
+              <p className="font-[poppins] text-[26px] font-semibold text-[#1176F0] ">
                 Leave A Reply
               </p>
             </div>
@@ -93,7 +93,7 @@ const Blogform = () => {
                 <p className="text-red-500">{errors.comment?.message}</p>
               </div>
               <div>
-                <button className="py-4 px-4 font-[poppins] bg-[#1363DF] text-white font-semibold rounded-lg">
+                <button className="py-4 px-4 font-[poppins] hover:bg-[#1363DF] bg-[#1176F0] text-white font-semibold rounded-lg">
                   POST COMMENT
                 </button>
               </div>

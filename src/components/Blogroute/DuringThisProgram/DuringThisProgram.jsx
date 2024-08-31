@@ -3,10 +3,10 @@ const DuringThisProgram = () => {
   return (
     <>
       <div>
-        <h1 className=" font-bold font-[poppins] text-2xl text-[#082A5E]">
+        <h1 className=" font-bold font-[poppins] text-2xl text-[#1176F0]">
           During This Program{" "}
         </h1>
-        <p className=" py-5 font-[hindu] text-[#39557e] leading-6">
+        <p className=" py-5 font-[poppins] text-[#39557e] leading-6">
           Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion
           consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum
           that dolocons rsus mal suada and fadolorit.
@@ -43,7 +43,7 @@ const DuringThisProgram = () => {
             </li>
           </div>
         </ul>
-        <p className=" text-base text-[#375583] py-5 font-[hindu]">
+        <p className=" text-base text-[#375583] py-5 font-[poppins]">
           Horem ipsum dolor sitter metting Great consectetur adipiscing
           idealorem ipsum dolor sitter mettingtablished of a page when lookinThe
           point of using Lorem Ipsu ss normal distribution.est, qui dolor emr
@@ -56,7 +56,7 @@ const DuringThisProgram = () => {
         <div className="flex justify-between gap-5 py-8 items-center flex-wrap">
           <div className="flex gap-5 items-center">
             <div>
-              <p className="font-[poppins] font-semibold text-base text-[#082a5e]">
+              <p className="font-[poppins] font-semibold text-base text-[#1176F0]">
                 Tags:
               </p>
             </div>
@@ -84,7 +84,7 @@ const DuringThisProgram = () => {
         <hr />
 
         <div>
-          <h1 className=" font-[poppins] text-2xl font-bold py-5">Java Interview Questions for Freshers</h1>
+          <h1 className=" font-[poppins] text-2xl font-bold py-5 text-[#1176F0]">Java Interview Questions for Freshers</h1>
           <div>
             <p className=" font-medium text-xl">1. What is Java?</p>
             <p className=" py-2 text-slate-600">Java is a high-level, object-oriented programming language that was developed by Sun Microsystems in 1995. It is platform-independent, meaning that programs written in Java can run on any platform that has a Java Virtual Machine (JVM) installed.Before proceeding further, make sure you have a strong grasp of essential concepts in Java Full Stack Development, including front-end frameworks, back-end technologies, and database management.</p>
