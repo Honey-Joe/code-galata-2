@@ -43,8 +43,8 @@ const CourseTab = () => {
      
       return (
         <>
-        <div className='2xl:container'>
-          <div className='lg:w-[90%]  mx-auto grid grid-cols-1 py-[40px]'>
+        <div className='max-w-[100%]'>
+          <div className='lg:w-[90%] mx-auto grid grid-cols-1 py-[40px]'>
           <Tabs defaultValue={1}>
           <TabsList className='pb-3'>
             <div className='slider-container'>
