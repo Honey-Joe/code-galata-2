@@ -66,3 +66,7 @@ export const blogcard4 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-
 
 // blog details page image 
 export const dimg ="https://ik.imagekit.io/jjyo3gsee/HI-Study/image/blog_standard01.jpg?updatedAt=1724750390606"
+
+export const bloghead1440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/1440%20blog.png?updatedAt=1725113037803"
+export const bloghead745 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/745%20blog.png?updatedAt=1725113037883"
+export const blogheadmob = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/mobile%20blog.png?updatedAt=1725113037125"

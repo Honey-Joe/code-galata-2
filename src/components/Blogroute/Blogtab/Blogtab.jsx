@@ -8,11 +8,11 @@ import { ChevronRight } from "lucide-react";
 export default function UnstyledTabsVertical() {
   return (
     <>
-      <div className="max-w-[100%] mx-auto my-28">
+      <div className="max-w-[100%] mx-auto py-[40px]">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <Tabs defaultValue={0} orientation="vertical">
-            <div className=" grid grid-cols-4 col-span-1 gap-14">
-              <div className="h-[30%]">
+            <div className=" grid grid-cols-4  gap-14">
+              <div className="h-[30%] col-span-1 md:col-span-2 lg:col-span-1">
                 <TabsList
                   className="w-[100%] md:flex flex-col gap-5 py-7 px-3 bg-white rounded-lg hidden h-[100%]"
                   id="certi"
@@ -110,7 +110,7 @@ export default function UnstyledTabsVertical() {
                 </TabsList>
               </div>
 
-              <div className="col-span-4 md:col-span-3">
+              <div className="col-span-4 md:col-span-2 lg:col-span-3">
                 <TabPanel value={0}>
                   <TrendingArticles></TrendingArticles>
                 </TabPanel>
