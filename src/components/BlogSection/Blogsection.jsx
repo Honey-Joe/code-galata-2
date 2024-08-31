@@ -10,7 +10,7 @@ const Blogsection = () => {
             <div className='w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto'>
                 <div className='flex flex-col gap-4'>
                   <div className='flex justify-start'>
-                    <p className='px-3 py-1 bg-[#f5e7f1] rounded-full font-[poppins] font-medium text-[14px] text-[#db7093]'>BLOG POST</p>
+                    <p className='px-3 py-1 bg-[#CBD4FB] rounded-full font-[poppins] font-medium text-[14px] text-[#1176f0]'>BLOG POST</p>
                   </div>
                   <div>
                     <p className='font-[poppins] text-[44px] font-bold text-[#192335]'>Most Popular Post.</p>
@@ -23,6 +23,7 @@ const Blogsection = () => {
                 </div>
             </div>
             <div className='w-[90%] grid grid-cols-1 gap-10 lg:grid-cols-2 mx-auto my-5'>
+              <Link to={"/Blog"}>
               <div className='flex flex-col  hover:scale-[1.01] transition' id='certi'>
                 <div className=''>
                   <img src={blogcard1} alt="blog card1 " className='rounded-t-lg'/>
@@ -39,8 +40,10 @@ const Blogsection = () => {
                   </div>
                 </div>
               </div>
+              </Link>
               <div className='flex flex-col gap-12' >
-                  <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
+                <Link to={"/Blog"}>
+                <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
                     <div>
                     <img src={blogcard2} alt="blog card 2" className='rounded-l-lg'/>
 
@@ -55,6 +58,8 @@ const Blogsection = () => {
 
                     </div>
                   </div>
+                </Link>
+                  <Link to={"/Blog"}>
                   <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
                     <div>
                     <img src={blogcard4} alt="blog card 2" className='rounded-l-lg'/>
@@ -70,6 +75,8 @@ const Blogsection = () => {
 
                     </div>
                   </div>
+                  </Link>
+                  <Link to={"/Blog"}>
                   <div className='flex gap-3 bg-white hover:scale-[1.01] transition' id='certi'>
                     <div>
                     <img src={blogcard3} alt="blog card 2" className='rounded-l-lg'/>
@@ -85,6 +92,8 @@ const Blogsection = () => {
 
                     </div>
                   </div>
+                  </Link>
+                  
               </div>
             </div>
             

@@ -2,7 +2,7 @@ import { Twitter, Linkedin , Facebook,File ,User } from "lucide-react"
 const InstructorCard = (props) => {
   return (
     <>
-        <div className="  shadow-xl p-2 pb-3 rounded-2xl border-[2px]  overflow-hidden mt-10 md:mt-16">
+        <div className="  shadow-xl p-2 pb-3 rounded-2xl border-[2px]  overflow-hidden mt-5">
            <div className=" inline-block overflow-hidden relative">
                 <img className="hover:scale-125 transition-transform duration-500 object-cover" src={props.team1} alt="profile" />
                 <div className=" flex flex-col justify-center bg-black absolute bottom-0 ">
@@ -16,14 +16,14 @@ const InstructorCard = (props) => {
             <div className=" flex gap-2 justify-center items-end pt-2 lg:flex-col lg:items-center xl:flex xl:items-center" id="change">
                 <div className=" flex items-end gap-2">
                     <File className=" stroke-2 w-[17px] stroke-[#5f6fff]"/>
-                    <div id="course" className=" flex gap-2  w-fit items-end">
+                    <div  className=" flex gap-2 w-fit items-end">
                         <p className=" font-[poppins] text-[15px] text-[#414550]">{props.course_no}</p>
                         <p className="font-[poppins] text-[15px] text-[#414550]">{props.course}</p>
                     </div>
                 </div>
                 <div className=" flex items-end gap-2">
                     <User className=" stroke-2 w-[17px] stroke-[#5f6fff]"/>
-                    <div id="student" className=" flex gap-2 w-fit items-end">
+                    <div  className=" flex gap-2 w-fit items-end">
                         <p className="font-[poppins] text-[15px] text-[#414550]">{props.student_no}</p>
                         <p className=" font-[poppins] text-[15px] text-[#414550] ">{props.student}</p>
                     </div>

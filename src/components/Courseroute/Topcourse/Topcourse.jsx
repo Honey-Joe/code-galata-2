@@ -7,15 +7,15 @@ const Topcourse = () => {
       <div classname="2xl:container">
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
           <div className="flex items-start flex-col gap-3">
-            <div className="bg-[#FAECF1] px-4 rounded-full py-2 flex items-start">
-              <p className="font-[poppins] text-[14px] font-medium text-[#db7093]">
+            <div className="bg-[#CBD4FB] px-4 rounded-full py-2 flex items-start">
+              <p className="font-[poppins] text-[14px] font-medium text-[#1176f0]">
                 Top Courses
               </p>
             </div>
             <div>
               <p className="font-[poppins] font-bold text-[30px] text-[#192335]">
                 More Course By{" "}
-                <span className="text-[#1176F0]">Code Gallata</span>
+                <span className="text-[#1176F0] underline">Code Gallata</span>
               </p>
             </div>
           </div>

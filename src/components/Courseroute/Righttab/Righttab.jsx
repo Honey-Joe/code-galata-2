@@ -3,6 +3,7 @@ import {
   Check,
   Facebook,
   File,
+  Instagram,
   Linkedin,
   MessageCircleMore,
   Phone,
@@ -16,7 +17,6 @@ const Righttab = () => {
   return (
     <>
       <div className=" p-1 rounded-xl lg:w-[60%] w-[90%] mt-11 mx-auto lg:mx-0">
-        
         <div
           className="w-[100%] grid grid-cols-1 bg-[#f5f5fa] border-4 border-[#1176F0] rounded-xl mx-auto gap-10 "
           id="certi"
@@ -28,10 +28,7 @@ const Righttab = () => {
               </p>
             </div>
             <div className="flex justify-center">
-              <button
-                className=" py-3 font-[poppins] text-white text-[14px] bg-[#1176F0] rounded-md w-full"
-                
-              >
+              <button className=" py-3 font-[poppins] text-white text-[14px] bg-[#1176F0] rounded-md w-full">
                 Enroll Now
               </button>
             </div>
@@ -131,8 +128,6 @@ const Righttab = () => {
                       <hr />
                     </div>
 
-                    
-                    
                     <div className="flex flex-col gap-4">
                       <p className="font-[poppins] text-[#192335] font-semibold text-base">
                         Requirements
@@ -214,30 +209,54 @@ const Righttab = () => {
                 </div>
               </p>
             </p>
-            
           </div>
           <div className="bg-[#F5F5FA] py-3 rounded-b-lg">
-              <div className="flex justify-center gap-3 py-3">
-                <div className="group rounded-full py-4 px-4 border scale-100 hover:bg-blue-600 transition group-hover:scale-105 cursor-pointer ">
-                  <Facebook size={16} className="text-gray-500 group-hover:text-white"></Facebook>
-                </div>
-                <div className="group rounded-full py-4 px-4 border scale-100 hover:bg-blue-600 transition group-hover:scale-105 cursor-pointer">
-                  <Twitter size={16} className="text-gray-500 group-hover:text-white"></Twitter>
-                </div>
-                <div className="group rounded-full py-4 px-4 border scale-100 hover:bg-blue-600 transition group-hover:scale-105 cursor-pointer">
-                  <Linkedin size={16} className="text-gray-500 group-hover:text-white"></Linkedin>
-                </div>
+            <div className="flex justify-center gap-3 py-3">
+              <div className="group rounded-full py-4 px-4 border scale-100 hover:bg-blue-600 transition group-hover:scale-105 cursor-pointer ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 464 488"
+                  className="hover:text-white"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M462 228q0 93-66 159t-160 66q-56 0-109-28L2 464l40-120q-32-54-32-116q0-93 66-158.5T236 4t160 65.5T462 228zM236 39q-79 0-134.5 55.5T46 228q0 62 36 111l-24 70l74-23q49 31 104 31q79 0 134.5-55.5T426 228T370.5 94.5T236 39zm114 241q-1-1-10-7q-3-1-19-8.5t-19-8.5q-9-3-13 2q-1 3-4.5 7.5t-7.5 9t-5 5.5q-4 6-12 1q-34-17-45-27q-7-7-13.5-15t-12-15t-5.5-8q-3-7 3-11q4-6 8-10l6-9q2-5-1-10q-4-13-17-41q-3-9-12-9h-11q-9 0-15 7q-19 19-19 45q0 24 22 57l2 3q2 3 4.5 6.5t7 9t9 10.5t10.5 11.5t13 12.5t14.5 11.5t16.5 10t18 8.5q16 6 27.5 10t18 5t9.5 1t7-1t5-1q9-1 21.5-9t15.5-17q8-21 3-26z"
+                  />
+                </svg>
               </div>
-              <hr className="w-[80%] mx-auto"/>
-              <div className="flex flex-col items-center gap-5 py-5">
-                <p className="font-[poppins] text-[#212327] text-[13px] ">Card contact label</p>
-                <div className="flex items-center justify-center gap-3 bg-white px-10 py-3 rounded-3xl">
-                  <Phone></Phone>
-                  <div><p className="font-[poppins] text-[14px] text-[#192335] font-semibold">Call us: <span className="font-bold text-blue-600 font-[poppins] ">+91 80729 48266</span></p></div>
-                </div>
+              <div className="group rounded-full py-4 px-4 border scale-100 hover:bg-blue-600 transition group-hover:scale-105 cursor-pointer">
+                <Instagram
+                  size={16}
+                  className=" group-hover:text-white"
+                ></Instagram>
               </div>
-              
+              <div className="group rounded-full py-4 px-4 border scale-100 hover:bg-blue-600 transition group-hover:scale-105 cursor-pointer">
+                <Linkedin
+                  size={16}
+                  className=" group-hover:text-white"
+                ></Linkedin>
+              </div>
             </div>
+            <hr className="w-[80%] mx-auto" />
+            <div className="flex flex-col items-center gap-5 py-5">
+              <p className="font-[poppins] text-[#212327] text-[13px] ">
+                Card contact label
+              </p>
+              <div className="flex items-center justify-center gap-3 bg-white px-10 py-3 rounded-3xl">
+                <Phone></Phone>
+                <div>
+                  <p className="font-[poppins] text-[14px] text-[#192335] font-semibold">
+                    Call us:{" "}
+                    <span className="font-bold text-blue-600 font-[poppins] ">
+                      +91 80729 48266
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

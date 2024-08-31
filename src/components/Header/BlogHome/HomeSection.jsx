@@ -11,12 +11,12 @@ const HomeSection = () => {
                     <div className=" md:order-1 flex flex-col lg:pt-0">
                         <div className=" md:pt-10 pt-5">
                             <div className=" flex items-center gap-2">
-                                <h1 className=" text-[26px] font-[poppins] lg:text-[60px] font-bold text-[#1176F0] md:leading-tight lg:leading-none md:text-[54px] text-nowrap">Embark On A</h1>
+                                <h1 className=" text-[26px] font-[poppins] lg:text-[60px] font-bold text-black md:leading-tight lg:leading-none md:text-[54px] text-nowrap">Embark On A</h1>
                                 <div className="">
                                     <img src={line} alt="LIne" className=" h-[120px] -mt-2"/>
                                 </div>
                             </div>
-                            <h1 className=" md:-mt-5 -mt-8 text-[26px] font-[poppins] lg:text-[60px] font-bold text-[#1176F0] leading-tight md:leading-tight lg:leading-[68px] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At Studyhub</h1>
+                            <h1 className=" md:-mt-5 -mt-8 text-[26px] font-[poppins] lg:text-[60px] font-bold text-[#00000] leading-tight md:leading-tight lg:leading-[68px] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Studyhub</span></h1>
                             <p className=" font-[poppins] text-[#7F7F7F] pt-3">Discover a world of knowledge and opportunities with our online <br className="xl:block hidden"/> education platform pursue a new career.</p>
                         </div>
                         <div className=" pt-5">

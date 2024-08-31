@@ -17,8 +17,8 @@ const Body = () => {
       <Topcourse></Topcourse>
       <HowWeWork/>
       <ReviewSection></ReviewSection>
-      <Blogsection></Blogsection>
       <NewsLetter/>
+      <Blogsection></Blogsection>
       </div>
       </div>
       

@@ -62,11 +62,11 @@ const Header = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="flex gap-1 items-center">
-                  <Star className="fill-[#F8BC24] text-[#F8BC24] w-[15px] font-[Tutor]" />
-                  <Star className="fill-[#F8BC24] text-[#F8BC24] w-[15px] font-[Tutor]" />
-                  <Star className="fill-[#F8BC24] text-[#F8BC24] w-[15px] font-[Tutor]" />
-                  <Star className="fill-[#F8BC24] text-[#F8BC24] w-[15px] font-[Tutor]" />
-                  <Star className=" text-[#F8BC24] w-[15px] font-[Tutor]" />
+                  <Star className="fill-[#1176f6] text-[#1176f6] w-[15px] font-[Tutor]" />
+                  <Star className="fill-[#1176f6] text-[#1176f6] w-[15px] font-[Tutor]" />
+                  <Star className="fill-[#1176f6] text-[#1176f6] w-[15px] font-[Tutor]" />
+                  <Star className="fill-[#1176f6] text-[#1176f6] w-[15px] font-[Tutor]" />
+                  <Star className=" text-[#1176f6] w-[15px] font-[Tutor]" />
                 </div>
                 <div>
                   <p className="text-[#b2bdcd] font-[poppins] m-0">(4.29)</p>

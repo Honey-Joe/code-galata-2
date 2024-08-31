@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className=' bg-[#061E43] max-w-[100%]'>
+        <div className=' bg-[#000] max-w-[100%]'>
           <div className='w-[90%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-24 gap-10 '> 
             <div className=' flex flex-col gap-3 pb-5 md:pb-0'>
               <img className=" pt-2 -ml-2" src={navlogo1} alt="logo" width={150}/>
@@ -29,7 +29,7 @@ const Footer = () => {
             <div className=' flex lg:justify-center md:pl-10'>
               <div className=' flex flex-col gap-4 '>
                 <h1 className=' text-white font-[lexend] text-[24px] font-bold'>
-                  Resourcces
+                  Resources
                 </h1>
                 <ul className=' text-[#B2BDcD] pt-4'>
                   <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div> <a href="" className=" font-[poppins] font-medium group-hover:text-[#1363DF] ">About</a></li>
@@ -63,11 +63,11 @@ const Footer = () => {
                     <h1 className=' text-white font-[lexend] text-[24px] font-bold pb-5'>
                       Working Hours
                     </h1>
-                    <div className=" flex w-full items-center gap-x-20 border-b-[2px] border-[#39557E] pb-5">
+                    <div className=" flex w-full items-center gap-x-20 border-b-[2px] border-[#fff] pb-5">
                       <p className=" text-[16px] font-[poppins] font-bold text-white">Mon-Fri</p>
                       <p className=" font-[poppins] text-[#B2BDcD]">8:00 AM - 5:00 PM</p>
                     </div>
-                    <div className=" flex items-center w-full gap-x-20 border-b-[2px] border-[#39557E] pb-5">
+                    <div className=" flex items-center w-full gap-x-20 border-b-[2px] border-[#fff] pb-5">
                       <p className=" text-[16px] font-[poppins] font-bold text-white">Mon-Fri</p>
                       <p className=" font-[poppins] text-[#b3bac4]">9:00 AM - 6:00 PM</p>
                     </div>
@@ -80,16 +80,16 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" w-full border-t-[1px] py-7 mt-24 border-[#1d4074]">
+          <div className=" w-full border-t-[1px] py-7 mt-24 border-[#fff]">
             <div className=" 3xl:container w-[90%] xl:w-[90%] mx-auto">
               <div className=" lg:grid lg:grid-cols-2 grid-cols-1 flex flex-col items-center ">
                 <div>
-                  <p className=" text-[#8798b3] text-[15px] font-[lexend]">Copyright © 2024 code galatta. All rights reserved.</p>
+                  <p className=" text-[#fff] text-[15px] font-[lexend]">Copyright © 2024 code galatta. All rights reserved.</p>
                 </div>
                 <div className=" flex gap-2 lg:justify-end md:pt-3 lg:p-0">
-                  <p className=" text-[#8798b3] text-[15px] font-[lexend  text-[15px] font-[lexend] font-medium">Privacy Policy</p>
-                  <p className=" text-[#8798b3] text-[15px] font-[lexend] font-medium">.</p>
-                  <p className=" text-[#8798b3] text-[15px] font-[lexend] font-medium">Terms & Conditions</p>
+                  <p className=" text-[#fff] text-[15px] font-[lexend  text-[15px] font-[lexend] font-medium">Privacy Policy</p>
+                  <p className=" text-[#fff] text-[15px] font-[lexend] font-medium">.</p>
+                  <p className=" text-[#fff] text-[15px] font-[lexend] font-medium">Terms & Conditions</p>
                 </div>
               </div>
             </div>

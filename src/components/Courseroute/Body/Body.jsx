@@ -7,7 +7,7 @@ const Body = () => {
   return (
     <>
       <div className="max-w-[100%] mx-auto bg-[#FCFCFC]">
-        <div className="w-[95%] mx-auto grid grid-cols-1 lg:grid-cols-2">
+        <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 space-y-5">
           <div>
             <YoutubeVid></YoutubeVid>
             <Navtab></Navtab>

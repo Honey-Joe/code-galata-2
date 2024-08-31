@@ -7,7 +7,7 @@ const Button = () => {
             <div className=" group  flex items-center justify-center px-5 py-3 text-white rounded-lg hover:translate-x-3 transition  hover:text-[#fff] ">
                 <div className=" flex items-center justify-center">
                     <ArrowRight className=" h-5 mx-1 hidden group-hover:block"/> 
-                    <button className=" flex items-center font-[poppins] space-x-1 text-[16px] ">GET IT NOW</button>
+                    <button className=" flex items-center font-[poppins] space-x-1 text-[16px] ">Send</button>
                     <ArrowRight className=" h-5 group-hover:hidden"/>
                 </div>
             </div>

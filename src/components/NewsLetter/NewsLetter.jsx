@@ -7,7 +7,7 @@ const NewsLetter = () => {
         <div className="max-w-[100%] mx-auto">
             <div>
                 <div className=" text-center bg-[#1176F0] w-full h-full md:p-[100px] py-[70px] px-5">
-                    <div className=" flex justify-center pb-10 flex-col items-center">
+                    <div className=" flex justify-center flex-col items-center">
                         <span> 
                             <h1 className=" font-[poppins] font-medium text-[#ffffff] bg-[#a6afc349] p-2 px-5 rounded-full text-nowrap">GET LATEST HISTUDY UPDATES</h1>
                         </span>
@@ -24,20 +24,6 @@ const NewsLetter = () => {
                             </div>
                             
                             <p className=" text-white font-medium text-[14px] py-5">No ads, No trails, No commitments</p>
-                            <div>
-                                <div className=" grid grid-cols-1 md:grid-cols-2 pt-5 gap-y-2">
-                                    <div className="  md:border-r-[0.5px] md:border-red-50 md:border-r-slate-500 hover:-translate-y-2 transition">
-                                            <h1 className=" text-[50px] font-[poppins] font-bold text-white">500+</h1>
-                                            <span className=" font-[poppins] text-[20px] text-white font-bold">Successfully Trained</span>
-                                            <p className=" text-white pt-2 font-medium">Learners & counting</p>
-                                    </div>
-                                    <div className=" hover:-translate-y-2 transition">
-                                        <h1 className=" text-[50px] font-[poppins] font-bold text-white">500+</h1>
-                                        <span className=" font-[poppins] text-[20px] text-white font-bold">Certification Students</span>
-                                        <p className=" text-white pt-2 font-medium">Online Course</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ const Card_intro = () => {
     <>
       <div className="2xl:container py-10">
         <div className=" grid grid-cols-1 mx-auto items-center justify-center">
-          <div className="grid grid-cols-1 justify-center px-8 shadow-2xl py-5 rounded-xl">
+          <div className="grid grid-cols-1 justify-center px-8 py-5 rounded-xl" id="certi">
             <div className="flex justify-start py-2">
               <p className="font-[poppins] font-bold">Instructor</p>
             </div>
@@ -23,12 +23,12 @@ const Card_intro = () => {
                 <p className="font-[poppins] text-[20px] font-bold hover:text-[#1176F0]">
                 Suganth PV
                 </p>
-                <p className="font-[Hind] text-base text-[#6b7385]">
+                <p className="font-[poppins] text-base text-[#6b7385]">
                 UIUX DESIGNER
                 </p>
                 
                 <div>
-                  <p className="font-[Hind] text-[14px] text-[#212327]">
+                  <p className="font-[poppins] text-[14px] text-[#212327]">
                   The trainer is a seasoned professional with over 5 years of experience in UI/UX design, having worked on a variety of projects ranging from mobile apps to web platforms. 
                   </p>
                 </div>

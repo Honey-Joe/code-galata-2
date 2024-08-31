@@ -4,7 +4,7 @@ import Topcoursecard from "../Topcoursecard/Topcoursecard";
 const Topcourse = () => {
   return (
     <>
-      <div classname="2xl:container mx-auto">
+      <div classname="max-w-[100%] mx-auto py-[40px]">
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
           <div className="flex items-start flex-col gap-3">
             <div className="bg-[#2f55ef40] px-4 rounded-full py-2 flex items-start">
@@ -13,9 +13,9 @@ const Topcourse = () => {
               </p>
             </div>
             <div>
-              <p className="font-[LexendDeca] font-bold text-[30px] text-[#192335]">
+              <p className="font-[poppins] font-bold text-[30px] text-[#192335]">
                 More Course By{" "}
-                <span className="text-[#1176F0]">Code Gallata</span>
+                <span className="text-[#1176F0] underline">Code Gallata</span>
               </p>
             </div>
           </div>

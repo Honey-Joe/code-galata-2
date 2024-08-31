@@ -9,18 +9,18 @@ import CountUp from "react-countup";
 const Achievment = () => {
   return (
     <>
-      <div className="max-w-[100%] mx-auto py-12 my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
+      <div className="max-w-[100%] mx-auto py-[40px] my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <div>
-            <div className="flex justify-center py-5">
+            <div className="flex py-2">
               <p className="py-1 px-3 bg-[#E7EFFC] text-[#1176F0] rounded-lg font-[poppins] font-medium">
                 Worldwide Our Achievment
               </p>
             </div>
-            <div className="flex justify-center py-5">
-              <p className="font-[poppins] font-semibold text-[36px] text-[#082a5e] text-center">
-                Grow You <span className="text-[#1176F0]">Skills</span> To
-                Advance Your Career Path
+            <div className="flex pt-2 pb-7">
+              <p className="font-[poppins] font-semibold text-[30px] text-black">
+                Grow You Skills To
+                Advance Your <span className="text-[#1176F0] underline"> Career Path</span> 
               </p>
             </div>
             <div className=" grid xl:grid-cols-4 gap-5 md:grid-cols-2 lg:grid-cols-2 grid-cols-1">
