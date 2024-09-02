@@ -13,7 +13,7 @@ const Topcourse = () => {
               </p>
             </div>
             <div>
-              <p className="font-[poppins] font-bold text-[30px] text-[#192335]">
+              <p className="font-[poppins] font-bold text-[34px] text-[#192335]">
                 More Course By{" "}
                 <span className="text-[#1176F0] underline">Code Gallata</span>
               </p>

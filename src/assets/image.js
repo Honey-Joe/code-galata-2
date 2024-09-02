@@ -70,3 +70,7 @@ export const dimg ="https://ik.imagekit.io/jjyo3gsee/HI-Study/image/blog_standar
 export const bloghead1440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/1440%20blog.png?updatedAt=1725113037803"
 export const bloghead745 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/745%20blog.png?updatedAt=1725113037883"
 export const blogheadmob = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/mobile%20blog.png?updatedAt=1725113037125"
+export const insta = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/insta.png?updatedAt=1725283671089"
+export const WhatsApp = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/logos_whatsapp-icon.png?updatedAt=1725283780457"
+export const youtube ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/logos_youtube-icon.png?updatedAt=1725283781228"
+export const linkedin = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/linkedin.png?updatedAt=1725283670934"

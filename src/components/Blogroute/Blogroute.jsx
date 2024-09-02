@@ -10,7 +10,6 @@ const Blogroute = () => {
       <Navbar/>
       <Header></Header>
       <Blogtab></Blogtab>
-      
       <Footer/>
     </>
   )

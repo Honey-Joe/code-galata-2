@@ -46,12 +46,12 @@ const Homebody = () => {
       <div className="w-[90%] mx-auto grid grid-cols-1">
         <div className="">
           <div className=" flex">
-          <h1 className="text-[16px] text-[#1176F0] text-center py-1 px-3 bg-[#E7EFFC] rounded-lg">
+          <h1 className="text-[16px] text-[#1176F0] text-center py-1 px-3 bg-[#E7EFFC] rounded-lg font-[poppins]">
             What we Provides?
           </h1>
           </div>
           
-          <h2 className="text-[30px]  font-semibold py-3">
+          <h2 className="text-[34px]  font-semibold py-3 font-[poppins]">
             Provide Interective IT Solution <span className="text-[#1176f0] underline">Business Services</span> 
           </h2>
           <div className="my-5">

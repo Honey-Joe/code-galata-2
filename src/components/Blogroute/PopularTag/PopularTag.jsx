@@ -9,7 +9,7 @@ const PopularTag = () => {
 
                     </div>
                 </h1>
-                <div className=" flex flex-wrap gap-5 pt-6">
+                <div className=" flex flex-wrap gap-5 pt-6 font-[poppins]">
                     <p className=" text-[#1176F0] bg-[#1365df38] px-3 py-2 text-[15px] rounded-md hover:text-white hover:bg-[#1363DF] transition-colors">Apps</p>
                     <p className=" text-[#1176F0] bg-[#1365df38] px-3 py-2 text-[15px] rounded-md hover:text-white hover:bg-[#1363DF] transition-colors">Art & Design</p>
                     <p className=" text-[#1176F0] bg-[#1365df38] px-3 py-2 text-[15px] rounded-md hover:text-white hover:bg-[#1363DF] transition-colors">Courses</p>

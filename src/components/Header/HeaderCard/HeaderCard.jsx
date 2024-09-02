@@ -7,10 +7,10 @@ const HeaderCard = () => {
     <>
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center relative lg:gap-20 xl:gap-14">
         <div
-          className=" p-6 rounded-xl bg-white w-fit my-5 lg:my-28 md:my-10 group"
+          className=" p-6 rounded-xl bg-white w-fit my-5 lg:my-28 md:my-10 group hover:scale-[1.01] "
           id="certi"
         >
-          <div className=" inline-block overflow-hidden relative  ">
+          <div className=" inline-block overflow-hidden relative ">
             <img
               src={homeri1}
               alt="Image"
@@ -54,7 +54,7 @@ const HeaderCard = () => {
           </div>
         </div>
 
-        <div className=" p-6 bg-white md:w-[50%] w-fit md:my-28 group md:absolute top-24 right-0 rounded-xl" id="certi">
+        <div className=" p-6 bg-white md:w-[50%] w-fit md:my-28 group md:absolute top-24 right-0 rounded-xl hover:scale-[1.01] " id="certi">
           <div className=" inline-block overflow-hidden relative ">
             <img
               src={homeri2}

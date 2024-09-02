@@ -14,30 +14,30 @@ const DuringThisProgram = () => {
         <ul className=" md:flex gap-28 items-start">
           <div>
             <li className=" flex gap-2 items-center ">
-              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5" />
-              <p className=" text-lg text-[#375583]">Become a UX designer.</p>
+              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5 " />
+              <p className=" text-lg text-[#375583] font-[poppins]">Become a UX designer.</p>
             </li>
             <li className=" flex gap-2 items-center py-3">
-              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5" />
-              <p className=" text-lg text-[#375583]">
+              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5 " />
+              <p className=" text-lg text-[#375583] font-[poppins]">
                 You will be able to add UX designe
               </p>
             </li>
             <li className=" flex gap-2 items-center">
-              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5" />
-              <p className=" text-lg text-[#375583]">Become a UI designer.</p>
+              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5 " />
+              <p className=" text-lg text-[#375583] font-[poppins]">Become a UI designer.</p>
             </li>
           </div>
           <div>
             <li className=" flex gap-2 items-center py-3">
-              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5" />
-              <p className=" text-lg text-[#375583]">
+              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5 " />
+              <p className=" text-lg text-[#375583] font-[poppins]">
                 Create quick wireframes.
               </p>
             </li>
             <li className=" flex gap-2 items-center">
-              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5" />
-              <p className=" text-lg text-[#375583]">
+              <Check className=" bg-[#1363DF] rounded-full p-[2px] stroke-2 stroke-white w-5 h-5 " />
+              <p className=" text-lg text-[#375583] font-[poppins]">
                 Downloadable exercise files
               </p>
             </li>
@@ -86,24 +86,24 @@ const DuringThisProgram = () => {
         <div>
           <h1 className=" font-[poppins] text-2xl font-bold py-5 text-[#1176F0]">Java Interview Questions for Freshers</h1>
           <div>
-            <p className=" font-medium text-xl">1. What is Java?</p>
-            <p className=" py-2 text-slate-600">Java is a high-level, object-oriented programming language that was developed by Sun Microsystems in 1995. It is platform-independent, meaning that programs written in Java can run on any platform that has a Java Virtual Machine (JVM) installed.Before proceeding further, make sure you have a strong grasp of essential concepts in Java Full Stack Development, including front-end frameworks, back-end technologies, and database management.</p>
+            <p className=" font-medium text-xl font-[poppins]">1. What is Java?</p>
+            <p className=" py-2 text-slate-600 font-[poppins]">Java is a high-level, object-oriented programming language that was developed by Sun Microsystems in 1995. It is platform-independent, meaning that programs written in Java can run on any platform that has a Java Virtual Machine (JVM) installed.Before proceeding further, make sure you have a strong grasp of essential concepts in Java Full Stack Development, including front-end frameworks, back-end technologies, and database management.</p>
           </div>
           <div className=" pt-3">
-            <p className=" font-medium text-xl">2. What are the features of Java?</p>
-            <p className=" py-2 text-slate-600">Java has several features that make it a popular programming language. Some of these features include platform independence, object-oriented programming, automatic memory management, robustness, and security.</p>
+            <p className=" font-medium text-xl font-[poppins]">2. What are the features of Java?</p>
+            <p className=" py-2 text-slate-600 font-[poppins]">Java has several features that make it a popular programming language. Some of these features include platform independence, object-oriented programming, automatic memory management, robustness, and security.</p>
           </div>
           <div className=" pt-3">
-            <p className=" font-medium text-xl">3. What is JVM?</p>
-            <p className=" py-2 text-slate-600">JJVM stands for Java Virtual Machine. It is an abstract machine that provides the runtime environment in which Java programs are executed. The JVM interprets Java bytecode and translates it into machine-specific code.</p>
+            <p className=" font-medium text-xl font-[poppins]">3. What is JVM?</p>
+            <p className=" py-2 text-slate-600 font-[poppins]">JJVM stands for Java Virtual Machine. It is an abstract machine that provides the runtime environment in which Java programs are executed. The JVM interprets Java bytecode and translates it into machine-specific code.</p>
           </div>
           <div className=" pt-3">
-            <p className=" font-medium text-xl">4. What is the difference between JDK, JRE, and JVM?</p>
-            <p className=" py-2 text-slate-600">JDK stands for Java Development Kit. It is a software development kit that includes tools for developing, compiling, and debugging Java programs. JRE stands for Java Runtime Environment. It is a software environment that provides the necessary runtime libraries and components for running Java programs. JVM is the virtual machine that executes the Java bytecode.</p>
+            <p className=" font-medium text-xl font-[poppins]">4. What is the difference between JDK, JRE, and JVM?</p>
+            <p className=" py-2 text-slate-600 font-[poppins]">JDK stands for Java Development Kit. It is a software development kit that includes tools for developing, compiling, and debugging Java programs. JRE stands for Java Runtime Environment. It is a software environment that provides the necessary runtime libraries and components for running Java programs. JVM is the virtual machine that executes the Java bytecode.</p>
           </div>
           <div className=" pt-3">
-            <p className=" font-medium text-xl">5. What is the difference between a class and an object?</p>
-            <p className=" py-2 text-slate-600">A class is a blueprint or template for creating objects, while an object is an instance of a class. In other words, a class defines the properties and behaviors of an object, while an object is an instance of those properties and behaviors.</p>
+            <p className=" font-medium text-xl font-[poppins]">5. What is the difference between a class and an object?</p>
+            <p className=" py-2 text-slate-600 font-[poppins]">A class is a blueprint or template for creating objects, while an object is an instance of a class. In other words, a class defines the properties and behaviors of an object, while an object is an instance of those properties and behaviors.</p>
           </div>
         </div>
       </div>

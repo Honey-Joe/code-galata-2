@@ -13,7 +13,7 @@ const HomeSection = () => {
                             <div className=" flex items-center gap-2">
                                 <h1 className=" text-[26px] font-[poppins] lg:text-[60px] font-bold text-black md:leading-tight lg:leading-none md:text-[54px] text-nowrap">Embark On A</h1>
                                 <div className="">
-                                    <img src={line} alt="LIne" className=" h-[120px] -mt-2"/>
+                                    <img src={line} alt="LIne" className=" h-[90px]"/>
                                 </div>
                             </div>
                             <h1 className=" md:-mt-5 -mt-8 text-[26px] font-[poppins] lg:text-[60px] font-bold text-[#00000] leading-tight md:leading-tight lg:leading-[68px] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Studyhub</span></h1>
@@ -69,6 +69,18 @@ const HomeSection = () => {
                         </div>
                     </div>
                 </div>
+                <div className="animate-pulse duration-700 absolute bottom-[2%] left-[45%] border border-[#1176F0] rounded-md xl:block hidden">
+                    <div className=" flex gap-3 items-start p-1 px-2">
+                        <div>
+                            <Star className=" w-12 h-12 stroke-white stroke-1 p-1 rounded-md bg-[#1176F0]"/>
+                        </div>
+                        <div className=" flex items-start flex-col">
+                            <h1 className=" font-bold text-2xl">4.5</h1>
+                            <p className=" text-[#1176F0] leading-[4px]">(2.4k Reviews)</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </>
