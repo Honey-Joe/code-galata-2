@@ -1,6 +1,6 @@
 import { homeri1, homeri2 } from "../../../API/ImageApi";
 import { img1 } from "../../../assets/image";
-import { NotepadText, BookMarked, Star, Users } from "lucide-react";
+import { NotepadText, BookMarked, Star, Users, LucideShare2 } from "lucide-react";
 
 const HeaderCard = () => {
   return (
@@ -16,7 +16,7 @@ const HeaderCard = () => {
               alt="Image"
               className="group-hover:scale-110 transition duration-300 ease-in-out"
             />
-            <BookMarked className=" w-8 h-8 absolute top-4 right-4 stroke-2 stroke-white group-hover:hover:bg-[#1176F0] transition-colors duration-300 bg-[#504f5134] p-2 rounded-full" />
+            <LucideShare2 className=" w-8 h-8 absolute top-4 right-4 stroke-2 stroke-white group-hover:hover:bg-[#1176F0] transition-colors duration-300 bg-[#504f5134] p-2 rounded-full" />
           </div>
           <p className=" bg-[#3c8ef31a] w-fit px-2 rounded-sm text-[#1176F0] font-[poppins] my-4">
             Development
@@ -61,7 +61,7 @@ const HeaderCard = () => {
               alt="Image"
               className="group-hover:scale-110 transition duration-300 ease-in-out"
             />
-            <BookMarked className=" w-8 h-8 absolute top-4 right-4 stroke-2 stroke-white group-hover:hover:bg-[#1176F0] transition-colors duration-300 bg-[#504f5134] p-2 rounded-full" />
+            <LucideShare2 className=" w-8 h-8 absolute top-4 right-4 stroke-2 stroke-white group-hover:hover:bg-[#1176F0] transition-colors duration-300 bg-[#504f5134] p-2 rounded-full" />
           </div>
           <p className=" bg-[#3c8ef31a] w-fit px-2 rounded-sm text-[#1176F0] font-[poppins] my-4">
             Accounting
