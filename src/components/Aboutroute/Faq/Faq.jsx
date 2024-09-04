@@ -54,7 +54,7 @@ const Faq = () => {
                                 </div>
                                 <p className=" text-[#1176F0] font-bold font-[poppins] text-[18px]">FAQ</p>
                             </div>
-                            <p className="text-[48px] font-[poppins] leading-[57px] pt-4 font-bold">Frequently Asked <br /> Questions</p>
+                            <p className="text-[30px] lg:text-[48px] font-[poppins] leading-[57px] pt-4 font-bold">Frequently Asked <br /> Questions</p>
                             <p className=" pt-5 font-[poppins] text-[#6c6f70] text-[16px] pb-5" >Architect client-centered total linkage for intuitive benefits. Dynamically restore convergence before real-time restore.</p>
                             {
                                 accordionData.map((data, index) =>{

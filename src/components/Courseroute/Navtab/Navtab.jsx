@@ -48,7 +48,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
   return (
     <>
     <div className='2xl:container'>
-      <div className='lg:w-[110%] lg:ml-[0%] w-[80%] mx-auto grid grid-cols-1 mb-28'>
+      <div className='lg:w-[110%] lg:ml-[0%] w-[87%] mx-auto grid grid-cols-1 mb-28'>
       <Tabs defaultValue={1}>
       <TabsList className='pb-3'>
         <div className='slider-container'>
@@ -62,7 +62,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
                   : 'text-[#39557e]'
               } ${
                 disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-              } text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+              } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
             }),
           }}>
           
@@ -79,7 +79,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
                   : 'text-[#39557e]'
               } ${
                 disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-              } text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+              } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
             }),
           }}>
 
@@ -98,7 +98,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
                   : 'text-[#39557e]'
               } ${
                 disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-              } text-[18px]  font-semibold w-full px-1 py-2  flex justify-center focus:outline-0`,
+              } text-[14px] lg:text-[18px]   font-semibold w-full px-1 py-2  flex justify-center focus:outline-0`,
             }),
           }}>
           <button className=''>
@@ -118,7 +118,7 @@ import { Tab, TabPanel, Tabs, TabsList } from '@mui/base';
                   : 'text-[#39557e]'
               } ${
                 disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-              } text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+              } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
             }),
           }}>
                 <button className=''>Announcement</button>

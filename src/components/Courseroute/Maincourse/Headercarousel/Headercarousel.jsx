@@ -17,7 +17,7 @@ const Headercarousel = () => {
   return (
     <>
       <div className="max-w-[100%]">
-        <div className="py-[40px] mt-10 w-[90%]  lg:w-[95%] mx-auto">
+        <div className="py-[40px] mt-10 w-[84%]  lg:w-[95%] mx-auto">
           <div className="slider-container">
             <Slider {...settings}>
               <div>

@@ -7,7 +7,7 @@ const Navabout = () => {
     <>
       <div className="2xl:container bg-[#FCFCFC]">
         <div
-          className="w-[100%] grid grid-cols-1 px-8 py-6 bg-white rounded-lg"
+          className="w-[100%] grid grid-cols-1 lg:px-8 px-3  py-2 lg:py-6 bg-white rounded-lg"
           id="certi"
         >
           <p className={open ? null : "line-clamp-4"}>

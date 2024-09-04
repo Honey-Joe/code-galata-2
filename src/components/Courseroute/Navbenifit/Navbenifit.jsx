@@ -5,7 +5,7 @@ const Navbenifit = () => {
   return (
     <>
       <div className="2xl:container mx-auto my-3">
-        <div className="w-[100%] grid grid-cols-1 px-8 py-6 bg-white rounded-lg" id="certi">
+        <div className="w-[100%] grid grid-cols-1 px-4 lg:px-8 py-6 bg-white rounded-lg" id="certi">
           <div className="py-3 flex flex-col gap-2">
             <p className="font-[poppins] font-bold text-[20px] text-[#192335]">
             Who Should Enroll             </p>

@@ -5,7 +5,7 @@ const Navcertificate = () => {
     <>
       <div className="3xl:container">
         <div
-          className=" py-6 px-8 gap-5 rounded-xl "
+          className=" lg:py-6 lg:px-8 py-3  gap-5 rounded-xl "
           id="certi"
         >
           <div className=" grid grid-cols-1 lg:grid-cols-2 rounded-xl py-4 px-4">

@@ -13,7 +13,7 @@ const HeroSection = () => {
 
               </div>
             </div>
-            <h1 className=" font-[poppins] text-[30px] font-black text-wrap">How Professional IT Services
+            <h1 className=" font-[poppins] text-[24px]  lg:text-[30px] font-black text-wrap">How Professional IT Services
             Can Drive <span className=" text-[#1176F0] underline"> Success.</span></h1>
           </div>
           <div className=" pt-10">

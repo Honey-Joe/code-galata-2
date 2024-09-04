@@ -6,11 +6,11 @@ const Hard = () => {
       <div className=" w-[90%] mx-auto">
         <div className=" mb-10 space-y-4">
           <div className="flex">
-            <h1 className="text-[16px] text-[#1176F0] text-center py-1 px-3 bg-[#E7EFFC] rounded-lg">
+            <h1 className="text-[14px] lg:text-[16px]  text-[#1176F0] text-center py-1 px-3 bg-[#E7EFFC] rounded-lg">
               WORK PROCESS
             </h1>
           </div>
-          <h2 className="text-[30px] font-[poppins] font-bold">
+          <h2 className="text-[22px] lg:text-[30px]  font-[poppins] font-bold">
             Working Process For{" "}
             <span className="text-[#1176F0] underline">Technology</span>
           </h2>

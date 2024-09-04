@@ -16,7 +16,7 @@ const Card_intro = () => {
                 <img
                   src={author_image}
                   alt=""
-                  className="h-[200px] w-[200px] rounded-full"
+                  className="lg:h-[200px] lg:w-[200px] w-[100px] h-[100px] rounded-full"
                 />
               </div>
               <div className="flex flex-col justify-center py-3 gap-3">

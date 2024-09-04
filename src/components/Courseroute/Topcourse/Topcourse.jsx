@@ -13,13 +13,13 @@ const Topcourse = () => {
               </p>
             </div>
             <div>
-              <p className="font-[poppins] font-bold text-[30px] text-[#192335]">
+              <p className="font-[poppins] font-bold text-[24px] lg:text-[30px] text-[#192335]">
                 More Course By{" "}
                 <span className="text-[#1176F0] underline">Code Gallata</span>
               </p>
             </div>
           </div>
-          <div className="flex sm:justify-end sm:items-end">
+          <div className="flex sm:justify-end sm:items-end py-5">
             <div>
               <a
                 href="#_"

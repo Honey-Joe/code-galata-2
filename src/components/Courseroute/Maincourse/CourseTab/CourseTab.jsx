@@ -44,10 +44,10 @@ const CourseTab = () => {
       return (
         <>
         <div className='max-w-[100%]'>
-          <div className='w-[85%] lg:w-[90%] mx-auto py-[40px]'>
+          <div className='w-[94%] lg:w-[90%] mx-auto py-[40px]'>
           <Tabs defaultValue={1}>
           <TabsList className='pb-3'>
-            <div className='slider-container'>
+            <div className='slider-container w-[90%] lg:w-[100%] mx-auto'>
               <Slider {...settings}>
                 <div>
             <Tab value={1} slotProps={{
@@ -58,7 +58,7 @@ const CourseTab = () => {
                       : 'text-[#39557e]'
                   } ${
                     disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-                  } text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                  } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
                 }),
               }}>
               
@@ -75,7 +75,7 @@ const CourseTab = () => {
                       : 'text-[#39557e]'
                   } ${
                     disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-                  } text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                  } text-[14px] lg:text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
                 }),
               }}>
     
@@ -94,7 +94,7 @@ const CourseTab = () => {
                       : 'text-[#39557e]'
                   } ${
                     disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-                  } text-[18px]  font-semibold w-full px-1 py-2  flex justify-center focus:outline-0`,
+                  } text-[14px] lg:text-[18px] font-semibold w-full px-1 py-2  flex justify-center focus:outline-0`,
                 }),
               }}>
               <button className=''>
@@ -113,7 +113,7 @@ const CourseTab = () => {
                       : 'text-[#39557e]'
                   } ${
                     disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
-                  } text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+                  } text-[14px] lg:text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
                 }),
               }}>
                     <button className=''>Designing</button>
