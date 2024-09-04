@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div>
-        <div className=' bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/footer.png?updatedAt=1725283096540)] bg-contain max-w-[100%]'>
+        <div className=' bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/footer.png?updatedAt=17254199064970)] bg-contain max-w-[100%]'>
           <div className='w-[90%] lg:w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-24 gap-10 '> 
             <div className=' flex flex-col gap-3 pb-5 md:pb-0'>
               <img className=" pt-2 -ml-2" src={navlogo1} alt="logo" width={150}/>

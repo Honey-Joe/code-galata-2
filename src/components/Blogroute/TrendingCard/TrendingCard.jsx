@@ -3,7 +3,7 @@ import { Eye, View } from "lucide-react"
 const TrendingCard = (prop) => {
   return (
     <>
-        <div className="  shadow-md hover:shadow-xl border-[1.5px] rounded-lg">
+        <div className="  shadow-md hover:shadow-xl border-[1.5px] rounded-lg p-3">
             <div className=" relative">
                 <div>
                     <img src={prop.timg} alt="Card"/>

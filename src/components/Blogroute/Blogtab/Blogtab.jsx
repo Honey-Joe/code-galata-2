@@ -4,6 +4,11 @@ import { TabPanel } from "@mui/base/TabPanel";
 import { Tab } from "@mui/base/Tab";
 import TrendingArticles from "../TrendingArticles/TrendingArticles";
 import { ChevronRight } from "lucide-react";
+import Blogtabcontent2 from "../Blogtabcontent2/Blogtabcontent2";
+import Blogtabcontent3 from "../Blogtabcontent3/Blogtabcontent3";
+import Blogtabcontent4 from "../Blogtabcontent4/Blogtabcontent4";
+import Blogtabcontent5 from "../Blogtabcontent5/Blogtabcontent4";
+import Blogtabcontent6 from "../Blogtabcontent6/Blogtabcontent4";
 
 export default function UnstyledTabsVertical() {
   return (
@@ -12,7 +17,7 @@ export default function UnstyledTabsVertical() {
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <Tabs defaultValue={0} orientation="vertical">
             <div className=" grid grid-cols-4  gap-14">
-              <div className="h-[30%] col-span-1 md:col-span-2 lg:col-span-1">
+              <div className="h-fit col-span-1 md:col-span-2 lg:col-span-1">
                 <TabsList
                   className="w-[100%] md:flex flex-col gap-5 py-7 px-3 bg-white rounded-lg hidden h-[100%]"
                   id="certi"
@@ -115,10 +120,19 @@ export default function UnstyledTabsVertical() {
                   <TrendingArticles></TrendingArticles>
                 </TabPanel>
                 <TabPanel value={1}>
-                  <TrendingArticles></TrendingArticles>
+                  <Blogtabcontent2></Blogtabcontent2>
                 </TabPanel>
                 <TabPanel value={2}>
-                  <TrendingArticles></TrendingArticles>
+                  <Blogtabcontent3></Blogtabcontent3>
+                </TabPanel>
+                <TabPanel value={3}>
+                  <Blogtabcontent4></Blogtabcontent4>
+                </TabPanel>
+                <TabPanel value={4}>
+                  <Blogtabcontent5></Blogtabcontent5>
+                </TabPanel>
+                <TabPanel value={5}>
+                  <Blogtabcontent6></Blogtabcontent6>
                 </TabPanel>
               </div>
             </div>

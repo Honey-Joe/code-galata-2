@@ -24,7 +24,7 @@ const Herosection = () => {
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <div className="shadow-lg px-3 py-3 rounded-lg">
+                        <div className="shadow-lg px-3 py-3 rounded-lg flex justify-center w-[90%]">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/gsG7uj9-4Jo?si=iGyYHzopyGcagdUJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="rounded-md"></iframe>
 
                         </div>

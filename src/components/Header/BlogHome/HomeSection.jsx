@@ -16,7 +16,7 @@ const HomeSection = () => {
                                     <img src={line} alt="LIne" className=" h-[90px]"/>
                                 </div>
                             </div>
-                            <h1 className=" md:-mt-5 -mt-8 text-[26px] font-[poppins] lg:text-[60px] font-bold text-[#00000] leading-tight md:leading-tight lg:leading-[68px] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Studyhub</span></h1>
+                            <h1 className=" md:-mt-5 -mt-8 text-[26px] font-[poppins] lg:text-[59px] font-bold text-[#00000] leading-tight md:leading-tight lg:leading-[68px] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Code galata</span></h1>
                             <p className=" font-[poppins] text-[#7F7F7F] pt-3">Discover a world of knowledge and opportunities with our online <br className="xl:block hidden"/> education platform pursue a new career.</p>
                         </div>
                         <div className=" pt-5">
