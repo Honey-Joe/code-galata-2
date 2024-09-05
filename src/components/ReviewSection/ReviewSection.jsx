@@ -54,7 +54,7 @@ function ReviewSection() {
             </div>
           </div>
           <div>
-            <p className="font-[poppins] font-bold text-[30px]">WHAT OUR <span className="text-[#1176F0] underline">CUSTOMER SAYS</span></p>
+            <p className="font-[poppins] font-bold text-[24px] md:text-[34px]">WHAT OUR <span className="text-[#1176F0] underline">CUSTOMER SAYS</span></p>
           </div>
           <div className="slider-container ">
             <Slider {...settings}>

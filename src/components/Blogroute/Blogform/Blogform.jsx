@@ -24,6 +24,7 @@ const Blogform = () => {
             console.log(data)
 
         } catch (e) {
+          console.log(e)
           // handle your error
         }
       };
@@ -33,7 +34,7 @@ const Blogform = () => {
         <div className="w-[100%] grid grid-cols-1 my-5 lg:my-10 gap-5">
           <div className="flex flex-col gap-3">
             <div>
-              <p className="font-[poppins] text-[26px] font-semibold text-[#1176F0] ">
+              <p className="font-[poppins] text-[22px] md:text-[26px] font-semibold text-[#1176F0] ">
                 Leave A Reply
               </p>
             </div>

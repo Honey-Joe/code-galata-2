@@ -1,5 +1,4 @@
-import { ArrowRight, ChevronRight } from "lucide-react";
-import React from "react";
+import { ArrowRight } from "lucide-react";
 import { blogcard1, blogcard2, blogcard3, blogcard4 } from "../../assets/image";
 import { Link } from "react-router-dom";
 
@@ -14,15 +13,15 @@ const Blogsection = () => {
                 BLOG POST
               </p>
             </div>
-            <div>
-              <p className="font-[poppins] text-[44px] font-bold text-[#192335]">
+            <div className="py-5">
+              <p className="font-[poppins] text-[32px] md:text-[44px] font-bold text-[#192335]">
                 Most Popular Post.
               </p>
             </div>
           </div>
           <div className="flex justify-end items-center">
             <Link to={"/Blog"}>
-              <button className="bg-blue-600 px-8 py-4 flex gap-2 text-white rounded-lg font-[poppins] text-[18px]">
+              <button className="bg-blue-600 py-2 px-4 md:px-8 md:py-4 flex gap-2 text-white rounded-lg font-[poppins] text-[18px]">
                 See All Articles <ArrowRight></ArrowRight>
               </button>
             </Link>
@@ -44,7 +43,7 @@ const Blogsection = () => {
               </div>
               <div className="bg-white px-5 py-5 flex flex-col gap-3 rounded-xl">
                 <div>
-                  <p className="font-[poppins] font-bold text-[30px] text-[#192335] hover:text-[#2f57ef]">
+                  <p className="font-[poppins] font-bold text-[24px] md:text-[30px] text-[#192335] hover:text-[#2f57ef]">
                     Difficult Things About Education.
                   </p>
                 </div>
@@ -79,7 +78,7 @@ const Blogsection = () => {
                   </div>
                   <div className="flex flex-col gap-5 py-5 px-4 justify-center rounded-r-lg col-span-3">
                     <div>
-                      <p className="font-[poppins] font-bold text-[26px] text-[#192335] hover:text-[#2f57ef]">
+                      <p className="font-[poppins] font-bold text-[20px] md:text-[26px] text-[#192335] hover:text-[#2f57ef]">
                         React
                       </p>
                     </div>
@@ -107,7 +106,7 @@ const Blogsection = () => {
                   </div>
                   <div className="flex flex-col gap-5 py-5 px-4 rounded-r-lg col-span-3 justify-center">
                     <div>
-                      <p className="font-[poppins] font-bold text-[26px] text-[#192335] hover:text-[#2f57ef]">
+                      <p className="font-[poppins] font-bold text-[20px] md:text-[26px] text-[#192335] hover:text-[#2f57ef]">
                         Why Is Education So Famous?
                       </p>
                     </div>
@@ -135,7 +134,7 @@ const Blogsection = () => {
                   </div>
                   <div className="flex flex-col gap-5 py-5 px-4 justify-center rounded-r-lg col-span-3">
                     <div>
-                      <p className="font-[poppins] font-bold text-[26px] text-[#192335] hover:text-[#2f57ef]">
+                      <p className="font-[poppins] font-bold text-[20px] md:text-[26px] text-[#192335] hover:text-[#2f57ef]">
                         Education Is So Famous, But Why?
                       </p>
                     </div>

@@ -12,17 +12,17 @@ const HomeSection = () => {
                         <div className=" md:pt-10 pt-5">
                             <div className=" flex items-center gap-2">
                                 <h1 className=" text-[26px] text-center font-[poppins] lg:text-[60px] font-bold text-black md:text-[54px] text-nowrap">Embark On A</h1>
-                                <div className="">
+                                <div className="hidden md:block">
                                     <img src={line} alt="LIne" className=" h-[90px]"/>
                                 </div>
                             </div>
-                            <h1 className=" md:-mt-5 -mt-8 text-[26px] font-[poppins] lg:text-[59px] font-bold text-[#00000] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Code galata</span></h1>
+                            <h1 className=" text-[26px] font-[poppins] lg:text-[59px] font-bold text-[#00000] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Code galata</span></h1>
                             <p className=" font-[poppins] text-[#7F7F7F] pt-3">Discover a world of knowledge and opportunities with our online <br className="xl:block hidden"/> education platform pursue a new career.</p>
                         </div>
                         <div className=" pt-5">
                             <div className=" grid grid-cols-1 md:grid-cols-3 ">
                                 <div>
-                                    <p className=" font-[poppins] font-medium text-[17px]"><span className=" text-black text-[32px] font-bold pr-1">4.5</span>Instructor Rating</p>
+                                    <p className=" font-[poppins] font-medium text-[17px]"><span className=" text-black text-[24px] md:text-[32px] font-bold pr-1">4.5</span>Instructor Rating</p>
                                     <div className=" flex items-center">
                                         <Star className=" stroke-[#1176F0] w-5"/>
                                         <Star className=" stroke-[#1176F0] w-5"/>

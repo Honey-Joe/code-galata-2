@@ -27,7 +27,7 @@ const Topcoursecard = (props) => {
             </div>
           </div>
           <div>
-            <p className="font-[poppins] text-[22px] text-black hover:text-[#1176F0] font-bold">{props.coursetitle}</p>
+            <p className="font-[poppins] text-[20px] md:text-[22px] text-black hover:text-[#1176F0] font-bold">{props.coursetitle}</p>
           </div>
           <div className="flex gap-3 items-center">
             <div className="flex gap-1 items-center">

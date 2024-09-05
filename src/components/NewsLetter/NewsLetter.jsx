@@ -11,7 +11,7 @@ const NewsLetter = () => {
                         <span> 
                             <h1 className=" font-[poppins] font-medium text-[#ffffff] bg-[#a6afc349] p-2 px-5 rounded-full text-nowrap">GET LATEST HISTUDY UPDATES</h1>
                         </span>
-                        <h1 className=" text-[44px] font-bold text-white py-[15px] font-[poppins]">Subscribe Our Newsletter</h1>
+                        <h1 className="text-[34px] md:text-[44px] font-bold text-white py-[15px] font-[poppins]">Subscribe Our Newsletter</h1>
                         <p className=" xl:px-[285px] font-[poppins] text-[18px] text-white text-lg pb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, delectus. Accusamus ea dicta culpa soluta nostrum magnam perferendis!</p>
                         <div className="">
                             <div>

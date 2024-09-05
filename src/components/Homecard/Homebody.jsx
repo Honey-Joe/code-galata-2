@@ -51,7 +51,7 @@ const Homebody = () => {
           </h1>
           </div>
           
-          <h2 className="text-[34px]  font-semibold py-3 font-[poppins]">
+          <h2 className="text-[24px] md:text-[34px]  font-semibold py-3 font-[poppins]">
             Provide Interective IT Solution <span className="text-[#1176f0] underline">Business Services</span> 
           </h2>
           <div className="my-5">

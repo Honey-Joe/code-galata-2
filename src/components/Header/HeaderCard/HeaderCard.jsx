@@ -32,7 +32,7 @@ const HeaderCard = () => {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h1 className=" text-wrap font-[poppins] font-bold text-xl pt-4 hover:text-[#1176F0]">
+            <h1 className=" text-wrap font-[poppins] font-bold text-lg md:text-xl pt-4 hover:text-[#1176F0]">
               {" "}
               MASTER UI/UX FIGMA
             </h1>
@@ -77,7 +77,7 @@ const HeaderCard = () => {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <h1 className=" text-wrap font-[poppins] font-bold text-xl pt-4 hover:text-[#1176F0]">
+            <h1 className=" text-wrap font-[poppins] font-bold text-lg md:text-xl pt-4 hover:text-[#1176F0]">
               {" "}
               MASTER UI/UX FIGMA
             </h1>

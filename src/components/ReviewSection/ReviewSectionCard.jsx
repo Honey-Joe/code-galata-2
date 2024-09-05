@@ -5,7 +5,7 @@ const ReviewSectionCard = () => {
   return (
     <>
      <div className='2xl:container '>
-            <div className='w-[100%] grid grid-cols-1 px-6 gap-3 '>
+            <div className='w-[100%] grid grid-cols-1 px-1 md:px-6 gap-3 '>
               <div >
                 <div className='px-10 py-10 shadow-xl flex flex-col gap-5 rounded-3xl my-4'>
                 <div className='flex justify-center'>
