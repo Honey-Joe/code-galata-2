@@ -19,7 +19,7 @@ const Topcourse = () => {
               </p>
             </div>
           </div>
-          <div className="flex sm:justify-end sm:items-end">
+          <div className="flex justify-end pt-10">
             <div>
               <a
                 href="#_"
