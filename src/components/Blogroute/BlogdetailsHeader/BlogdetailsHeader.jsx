@@ -8,11 +8,11 @@ const BlogdetailsHeader = () => {
           <div className="w-[90%] mx-auto">
           <div className="flex flex-col gap-3 items-start">
             <div>
-              <p className="font-[poppins] font-semibold text-[30px] text-white md:text-[32px] lg:text-[36px]">
+              <p className="font-[poppins] font-semibold text-[24px] text-white md:text-[32px] lg:text-[36px]">
               40 Java Interview Questions for Freshers with Clear & Concise Answers              </p>
             </div>
             <div>
-              <p className="font-[poppins] text-base text-[#b2bdcd] font-normal">
+              <p className="font-[poppins] text-[14px] ld:text-base text-[#b2bdcd] font-normal">
               Horem ipsum dolor sitter metting Great consectetur adipiscing idealorem ipsum dolor sitter mettingtablis
               </p>
             </div>
