@@ -14,14 +14,14 @@ const Blogsection = () => {
               </p>
             </div>
             <div className="py-5">
-              <p className="font-[poppins] text-[32px] md:text-[44px] font-bold text-[#192335]">
+              <p className="font-[poppins] text-[24px] md:text-[44px] font-bold text-[#192335]">
                 Most Popular Post.
               </p>
             </div>
           </div>
           <div className="flex items-center lg:justify-end">
             <Link to={"/Blog"}>
-              <button className="bg-blue-600 py-2 px-4 md:px-8 md:py-4 flex gap-2 text-white rounded-lg font-[poppins] text-[18px]">
+              <button className="bg-blue-600 py-2 px-4 md:px-8 md:py-4 flex gap-2 items-center text-white rounded-lg font-[poppins] text-[14px] lg:text-[18px]">
                 See All Articles <ArrowRight></ArrowRight>
               </button>
             </Link>
