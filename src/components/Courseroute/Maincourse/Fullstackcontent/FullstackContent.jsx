@@ -7,7 +7,7 @@ const FullstackContent = (props) => {
         <div className="w-[100%] hover:scale-105 hover:shadow-2xl transition shadow-lg mx-auto grid grid-cols-1 gap-3 bg-white py-5 px-4 rounded-xl mb-10" id="certi">
           <div>
             <div>
-              <img src={props.imgurl} alt="coures image" className="rounded-lg w-full h-[250px] object-cover"/>
+              <img src={props.imgurl} alt="coures image" className="rounded-lg w-full h-full object-contain"/>
             </div>
           </div>
           <div className="flex gap-2 items-center" >

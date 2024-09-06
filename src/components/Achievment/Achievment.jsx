@@ -9,7 +9,7 @@ import CountUp from "react-countup";
 const Achievment = () => {
   return (
     <>
-      <div className="max-w-[100%] mx-auto py-[40px] my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
+      <div className="max-w-[100%] mx-auto py-[20px] lg:py-[40px] my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <div>
             <div className="flex py-2">
@@ -18,7 +18,7 @@ const Achievment = () => {
               </p>
             </div>
             <div className="flex pt-2 pb-7">
-              <p className="font-[poppins] font-semibold text-[30px] text-black">
+              <p className="font-[poppins] text-[24px] font-semibold lg:text-[30px] text-black">
                 Grow You Skills To
                 Advance Your <span className="text-[#1176F0] underline"> Career Path</span> 
               </p>

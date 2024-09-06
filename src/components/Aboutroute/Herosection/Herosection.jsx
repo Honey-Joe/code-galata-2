@@ -13,7 +13,7 @@ const Herosection = () => {
                         <h1 className="font-[poppins] lg:text-[30px] text-[22px] font-bold ">Moulding Young Minds in Enhancing their <span className="text-[#1176f0] underline">Skills</span> </h1>
                     </div>
                     <div>
-                        <p className="font-[poppins] text-[17px] ">Revamp Academy is dedicated to affordable excellence, impacting over 1200 students with courses at low priced. Our industry-aligned syllabus and 24/7 support ensure equal access for all, empowering individuals on a journey of success. Express interest, unlock potential, and join Revamp Academy for a brighter future.</p>
+                        <p className="font-[poppins] text-[17px] ">Code Galatta is dedicated to affordable excellence, impacting over 1200 students with courses at low priced. Our industry-aligned syllabus and 24/7 support ensure equal access for all, empowering individuals on a journey of success. Express interest, unlock potential, and join Revamp Academy for a brighter future.</p>
                     </div>
                     <div className="flex gap-7 group relative">
                         <div className="bg-[#1176F0] px-3 py-3 rounded-full group-hover:pr-56 transition-all">

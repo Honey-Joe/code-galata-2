@@ -13,7 +13,7 @@ import Blogtabcontent6 from "../Blogtabcontent6/Blogtabcontent4";
 export default function UnstyledTabsVertical() {
   return (
     <>
-      <div className="max-w-[100%] mx-auto py-[40px]">
+      <div className="max-w-[100%] mx-auto py-[20px] lg:py-[40px]">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <Tabs defaultValue={0} orientation="vertical">
             <div className=" grid grid-cols-4  gap-14">

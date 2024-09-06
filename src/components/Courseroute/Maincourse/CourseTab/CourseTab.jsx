@@ -44,7 +44,7 @@ const CourseTab = () => {
       return (
         <>
         <div className='max-w-[100%]'>
-          <div className='w-[94%] lg:w-[90%] mx-auto py-[40px]'>
+          <div className='w-[94%] lg:w-[90%] mx-auto py-[20px] lg:py-[40px]'>
           <Tabs defaultValue={1}>
           <TabsList className='pb-3'>
             <div className='slider-container w-[90%] lg:w-[100%] mx-auto'>

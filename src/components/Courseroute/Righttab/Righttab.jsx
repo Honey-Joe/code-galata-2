@@ -249,9 +249,7 @@ const Righttab = () => {
                 <div>
                   <p className="font-[poppins] text-[14px] text-[#192335] font-semibold">
                     Call us:{" "}
-                    <span className="font-bold text-blue-600 font-[poppins] ">
-                      +91 80729 48266
-                    </span>
+                    
                   </p>
                 </div>
               </div>

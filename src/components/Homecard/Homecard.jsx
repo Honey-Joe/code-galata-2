@@ -8,8 +8,8 @@ const Homecard = ({ home }) => {
       </div>
       
 
-      <h1 className='text-xl font-semibold font-[poppins]'>{home.name}</h1>
-      <p className='text-gray-500 text-center font-[poppins]'>{home.content}</p>
+      <h1 className='lg:text-xl font-semibold font-[poppins] text-lg'>{home.name}</h1>
+      <p className='text-gray-500 text-center font-[poppins] lg:text-[16px] text-[14px]'>{home.content}</p>
      
     </div>
   );

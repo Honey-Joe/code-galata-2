@@ -4,7 +4,7 @@ import Topcoursecard from "../Topcoursecard/Topcoursecard";
 const Topcourse = () => {
   return (
     <>
-      <div classname="max-w-[100%] mx-auto py-[40px]">
+      <div classname="max-w-[100%] mx-auto py-[20px] lg:py-[40px]">
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
           <div className="flex items-start flex-col gap-3">
             <div className="bg-[#2f55ef40] px-4 rounded-full py-2 flex items-start">
@@ -19,7 +19,7 @@ const Topcourse = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-end pt-10">
+          <div className="flex py-5 lg:pt-10">
             <div>
               <a
                 href="#_"

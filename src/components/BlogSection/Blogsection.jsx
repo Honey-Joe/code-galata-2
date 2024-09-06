@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Blogsection = () => {
   return (
     <>
-      <div className="max-w-[100%] mx-auto my-28">
+      <div className="max-w-[100%] mx-auto lg:py-[40px] py-[20px]">
         <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto">
           <div className="flex flex-col gap-4">
             <div className="flex justify-start">
@@ -43,7 +43,7 @@ const Blogsection = () => {
               </div>
               <div className="bg-white px-5 py-5 flex flex-col gap-3 rounded-xl">
                 <div>
-                  <p className="font-[poppins] font-bold text-[24px] md:text-[30px] text-[#192335] hover:text-[#2f57ef]">
+                  <p className="font-[poppins] font-bold text-[20px] md:text-[30px] text-[#192335] hover:text-[#2f57ef]">
                     Difficult Things About Education.
                   </p>
                 </div>

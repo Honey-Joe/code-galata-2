@@ -7,22 +7,22 @@ const HomeSection = () => {
     <>
         <div className="max-w-[100%]"> 
             <div className=" w-[90%] lg:w-[90%] mx-auto my-20 relative">
-                <div className=" grid grid-cols-1 xl:grid-cols-2 w-full items-center">
+                <div className=" grid grid-cols-1 xl:grid-cols-2 w-full items-center gap-3">
                     <div className=" md:order-1 flex flex-col lg:pt-0">
                         <div className=" md:pt-10 pt-5">
-                            <div className=" flex items-center gap-2">
+                            <div className=" flex items-center gap-2 relative">
                                 <h1 className=" text-[26px] text-center font-[poppins] lg:text-[60px] font-bold text-black md:text-[54px] text-nowrap">Embark On A</h1>
                                 <div className="hidden md:block">
-                                    <img src={line} alt="LIne" className=" h-[90px]"/>
+                                    <img src={line} alt="LIne" className=" h-[90px] absolute top-0 right-[15%]"/>
                                 </div>
                             </div>
-                            <h1 className=" text-[26px] font-[poppins] lg:text-[59px] font-bold text-[#00000] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> Code galata</span></h1>
+                            <h1 className=" text-[26px] font-[poppins] lg:text-[59px] font-bold text-[#00000] md:text-[54px]">Transformative Learning <br className=" hidden xl:block"/>Journey At<span className="text-[#1176f0]"> CODE GALATTA</span></h1>
                             <p className=" font-[poppins] text-[#7F7F7F] pt-3">Discover a world of knowledge and opportunities with our online <br className="xl:block hidden"/> education platform pursue a new career.</p>
                         </div>
                         <div className=" pt-5">
                             <div className=" grid grid-cols-1 md:grid-cols-3 ">
                                 <div>
-                                    <p className=" font-[poppins] font-medium text-[17px]"><span className=" text-black text-[24px] md:text-[32px] font-bold pr-1">4.5</span>Instructor Rating</p>
+                                    <p className=" font-[poppins] font-medium text-[17px]"><span className=" text-black text-[20px] md:text-[32px] font-bold pr-1">4.5</span>Instructor Rating</p>
                                     <div className=" flex items-center">
                                         <Star className=" stroke-[#1176F0] w-5"/>
                                         <Star className=" stroke-[#1176F0] w-5"/>
@@ -38,8 +38,8 @@ const HomeSection = () => {
                                         <img src={suganth} className=" md:w-14 w-14 rounded-full absolute top-0 md:-right-16 bg-white p-1  hover:scale-105 transition left-[80px]" alt="student" />
                                     </div>
                                     <div className=" pl-8">
-                                        <p className=" text-[24px] font-[poppins] text-[#1176F0] font-bold leading-6">2k students</p>
-                                        <p className=" text-[#7F7F7F] font-[poppins]">Joint our online Class</p>
+                                        <p className="text-[18px] md:text-[24px] font-[poppins] text-[#1176F0] font-bold leading-6">2k students</p>
+                                        <p className=" text-[#7F7F7F] font-[poppins] text-[14px]">Joint our online Class</p>
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ const HomeSection = () => {
                         <div className=" pt-5 flex items-center gap-10">
                             <button className=" flex items-center gap-2 py-4 bg-[#1176F0] px-8 text-white font-medium font-[poppins] rounded-md hover:bg-white   hover:text-[#1176F0] border border-[#1176F0] transition">My Course </button>
                             <div>
-                                <img src={arrow} alt="arrow" />
+                                <img src={arrow} alt="arrow" className="hidden lg:block"/>
                             </div>
                         </div>
                     </div>

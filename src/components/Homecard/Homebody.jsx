@@ -42,7 +42,7 @@ const homes = [
 
 const Homebody = () => {
   return (
-    <div className="max-w-[100%] py-[40px]">
+    <div className="max-w-[100%] py-[20px] lg:py-[40px]">
       <div className="w-[90%] mx-auto grid grid-cols-1">
         <div className="">
           <div className=" flex">
