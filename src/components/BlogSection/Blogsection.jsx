@@ -13,8 +13,8 @@ const Blogsection = () => {
                 BLOG POST
               </p>
             </div>
-            <div className="py-5">
-              <p className="font-[poppins] text-[24px] md:text-[44px] font-bold text-[#192335]">
+            <div className="py-3 lg:py-4">
+              <p className="font-[poppins] text-[28px] md:text-[44px] font-bold text-[#192335]">
                 Most Popular Post.
               </p>
             </div>
