@@ -20,15 +20,15 @@ const Card_intro = () => {
                 />
               </div>
               <div className="flex flex-col justify-center py-3 gap-3">
-                <p className="font-[poppins] text-[20px] font-bold hover:text-[#1176F0]">
+                <p className="font-[poppins] text-[16px] md:text-[20px] font-bold hover:text-[#1176F0]">
                 Suganth PV
                 </p>
-                <p className="font-[poppins] text-base text-[#6b7385]">
+                <p className="font-[poppins] text-[14px] md:text-base text-[#6b7385]">
                 UIUX DESIGNER
                 </p>
                 
                 <div>
-                  <p className="font-[poppins] text-[14px] text-[#212327]">
+                  <p className="font-[poppins] text-[12px] lg:text-[14px] text-[#212327]">
                   The trainer is a seasoned professional with over 5 years of experience in UI/UX design, having worked on a variety of projects ranging from mobile apps to web platforms. 
                   </p>
                 </div>

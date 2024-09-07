@@ -13,14 +13,14 @@ const Navabout = () => {
           <p className={open ? null : "line-clamp-4"}>
             <div>
             <div className="py-3">
-              <p className="font-[poppins] font-bold text-[#192335] text-[20px]">
+              <p className="font-[poppins] font-bold text-[#192335] text-[18px] md:text-[20px]">
                 About Course
               </p>
             </div>
             <hr />
 
             <div className="py-3">
-              <p className="font-[poppins] font-bold text-[20px] text-[#192335]">
+              <p className="font-[poppins] font-bold text-[16px] md:text-[20px] text-[#192335]">
               Figma: Where creativity meets productivity 
               </p>
             </div>

@@ -16,14 +16,14 @@ import {
 const Righttab = () => {
   return (
     <>
-      <div className=" p-1 rounded-xl lg:w-[60%] w-[90%] mt-11 mx-auto lg:mx-0">
+      <div className=" p-1 rounded-xl lg:w-[60%] w-[90%]   md:mt-11 mx-auto lg:mx-0">
         <div
           className="w-[100%] grid grid-cols-1 bg-[#f5f5fa] border-4 border-[#1176F0] rounded-xl mx-auto gap-10 "
           id="certi"
         >
           <div className="bg-white px-8 py-5 flex flex-col rounded-lg gap-9">
             <div className="flex items-start">
-              <p className="font-[poppins] font-bold text-[24px] text-[#212327]">
+              <p className="font-[poppins] font-bold text-[20px] md:text-[24px] text-[#212327]">
                 <strike>₹ 2500</strike> ₹ 2000
               </p>
             </div>
@@ -33,16 +33,11 @@ const Righttab = () => {
               </button>
             </div>
             <div className="flex justify-center">
-              <p className="font-[poppins] text-[14px] text-[#757c8e]">
+              <p className="font-[poppins] text-[14px] text-[#757c8e] text-nowrap">
                 Free access this course
               </p>
             </div>
-            <div className="">
-              <p className="flex gap-1 font-[poppins] text-[14px] text-[#757c8e] justify-center items-center">
-                <CalendarCheck2Icon></CalendarCheck2Icon> Enrollment validity:
-                365 days
-              </p>
-            </div>
+            
             <p className="line-clamp-3">
               <p>
                 <div className="line-clamp-3">
@@ -55,7 +50,7 @@ const Righttab = () => {
                           </p>
                         </div>
                         <div>
-                          <p className="py-1 px-2 text-[#6b7385] text-[10px] font-bold bg-[#f6f6f6] rounded-3xl">
+                          <p className="py-1 px-2 text-[#6b7385] text-nowrap text-[10px] font-bold bg-[#f6f6f6] rounded-3xl">
                             July 17, 2024
                           </p>
                         </div>
@@ -94,7 +89,7 @@ const Righttab = () => {
                           </p>
                         </div>
                         <div>
-                          <p className="py-1 px-2 text-[#6b7385] text-[10px] font-bold bg-[#f6f6f6] rounded-3xl">
+                          <p className="py-1 px-2 text-[#6b7385]  text-[10px] font-bold bg-[#f6f6f6] rounded-3xl">
                             English , Spanish
                           </p>
                         </div>
@@ -136,7 +131,7 @@ const Righttab = () => {
                         <Check size={35} color="#6b7385"></Check>
 
                         <div>
-                          <p className="font-[poppins] text-[#6b7385] text-base">
+                          <p className="font-[poppins] text-[#6b7385] text-[14px] md:text-base">
                             The theme design, features, and customer support of
                             No Requirements are truly outstanding!
                           </p>
@@ -149,22 +144,22 @@ const Righttab = () => {
                         Tags
                       </p>
                       <div className="flex gap-3 flex-wrap">
-                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-base text-gray-700">
+                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-[14px] md:text-base text-gray-700">
                           UI/UX
                         </button>
-                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-base text-gray-700">
+                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-[14px] md:text-base text-gray-700">
                           Code Gallata
                         </button>
-                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-base text-gray-700">
+                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-[14px] md:text-base text-gray-700">
                           LMS
                         </button>
-                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-base text-gray-700">
+                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-[14px] md:text-base text-gray-700">
                           Online Learning
                         </button>
-                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-base text-gray-700">
+                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-[14px] md:text-base text-gray-700">
                           Tutor
                         </button>
-                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-base text-gray-700">
+                        <button className="bg-[#f6f6f6] py-1 px-4 rounded-lg font-[poppins] text-[14px] md:text-base text-gray-700">
                           Tutor Pro
                         </button>
                       </div>
@@ -248,7 +243,7 @@ const Righttab = () => {
                 <Phone></Phone>
                 <div>
                   <p className="font-[poppins] text-[14px] text-[#192335] font-semibold">
-                    Call us:{" "}
+                    Call us{" "}
                     
                   </p>
                 </div>
