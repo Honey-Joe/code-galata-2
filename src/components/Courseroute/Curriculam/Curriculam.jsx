@@ -52,12 +52,7 @@ const Curriculam = () => {
                     What is UIUX ?{" "}
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
 
               <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
@@ -69,12 +64,7 @@ const Curriculam = () => {
                     Where it is Used?
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
               <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
                 <div className=" flex items-center gap-2">
@@ -85,12 +75,7 @@ const Curriculam = () => {
                     Demands
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
 
               <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
@@ -102,12 +87,7 @@ const Curriculam = () => {
                     Future Plans by learning FIGMA
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
               <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
                 <div className=" flex items-center gap-2">
@@ -118,12 +98,7 @@ const Curriculam = () => {
                     Syllabus Detailed Explanations
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
               <div className="p-3 flex items-center justify-between hover:bg-[#e3e5eb]">
                 <div className=" flex items-center gap-2">
@@ -134,12 +109,7 @@ const Curriculam = () => {
                     Tools Setup i.e FIGMA
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
             </div>
           </div>
@@ -228,12 +198,7 @@ const Curriculam = () => {
                     Figma UI — Structure
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
 
               <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
@@ -245,12 +210,7 @@ const Curriculam = () => {
                     Figma UI — Files
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
 
               <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
@@ -262,12 +222,7 @@ const Curriculam = () => {
                     Figma UI — Toolbar
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
               <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
                 <div className=" flex items-center gap-2">
@@ -278,12 +233,7 @@ const Curriculam = () => {
                     Figma UI — Left Sidebar
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
               <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
                 <div className=" flex items-center gap-2">
@@ -294,12 +244,7 @@ const Curriculam = () => {
                     Figma UI — Right Sidebar
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
               <div className="p-5 flex items-center justify-between hover:bg-[#e3e5eb]">
                 <div className=" flex items-center gap-2">
@@ -310,12 +255,7 @@ const Curriculam = () => {
                     Frames
                   </p>
                 </div>
-                <div className=" flex space-x-3">
-                  <p className=" font-[poppins] text-[14px] text-slate-600">
-                    07:00
-                  </p>
-                  <LockKeyhole className=" h-4 text-slate-600" />
-                </div>
+                
               </div>
             </div>
           </div>
