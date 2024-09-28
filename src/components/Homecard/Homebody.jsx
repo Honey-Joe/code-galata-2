@@ -42,14 +42,17 @@ const homes = [
 
 const Homebody = () => {
   return (
-    <div className="max-w-[100%] py-8">
+    <div className="max-w-[100%] py-[20px] lg:py-[40px]">
       <div className="w-[90%] mx-auto grid grid-cols-1">
         <div className="">
-          <h1 className="text-[18px] text-blue-600 text-center py-5">
+          <div className=" flex">
+          <h1 className="text-[16px] text-[#1176F0] text-center py-1 px-3 bg-[#E7EFFC] rounded-lg font-[poppins]">
             What we Provides?
           </h1>
-          <h2 className="text-[42px]  font-semibold text-center py-5">
-            Provide Interective IT Solution Business Services
+          </div>
+          
+          <h2 className="text-[24px] md:text-[34px]  font-semibold py-3 font-[poppins]">
+            Provide Interective IT Solution <span className="text-[#1176f0] underline">Business Services</span> 
           </h2>
           <div className="my-5">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">

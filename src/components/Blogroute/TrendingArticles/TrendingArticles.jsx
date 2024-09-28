@@ -8,7 +8,7 @@ const TrendingArticles = () => {
       <div className="max-w-[100%]">
         <div className="">
           <div>
-            <h1 className=" text-[28px] font-[poppins] font-bold">
+            <h1 className="text-[24px] md:text-[28px] font-[poppins] font-bold">
               Trending Articles
             </h1>
             <hr className=" mb-2 p-[1.2px] bg-[#E3E3E3]" />
@@ -18,7 +18,7 @@ const TrendingArticles = () => {
               return (
                 <>
                 <Link to={"/blogdetails"}>
-                <div key={index}>
+                <div key={index} id="certi" className="hover:scale-[1.01] rounded-lg">
                     <TrendingCard
                       timg={e.timg}
                       view={e.view}

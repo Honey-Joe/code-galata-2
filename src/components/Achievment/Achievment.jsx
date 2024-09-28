@@ -9,22 +9,22 @@ import CountUp from "react-countup";
 const Achievment = () => {
   return (
     <>
-      <div className="max-w-[100%] mx-auto py-12 my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
+      <div className="max-w-[100%] mx-auto py-[20px] lg:py-[40px] my-11 bg-[url(https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/fact_bg.jpg?updatedAt=1724603723440)]">
         <div className="w-[90%] mx-auto grid grid-cols-1">
           <div>
-            <div className="flex justify-center py-5">
-              <p className="py-1 px-3 bg-[#E7EFFC] text-[#1363df] rounded-lg font-[poppins] font-medium">
+            <div className="flex py-2">
+              <p className="py-1 px-3 bg-[#E7EFFC] text-[#1176F0] rounded-lg font-[poppins] font-medium">
                 Worldwide Our Achievment
               </p>
             </div>
-            <div className="flex justify-center py-5">
-              <p className="font-[poppins] font-semibold text-[36px] text-[#082a5e] text-center">
-                Grow You <span className="text-[#1363df]">Skills</span> To
-                Advance Your Career Path
+            <div className="flex pt-2 pb-7">
+              <p className="font-[poppins] text-[24px] font-semibold lg:text-[30px] text-black">
+                Grow You Skills To
+                Advance Your <span className="text-[#1176F0] underline"> Career Path</span> 
               </p>
             </div>
             <div className=" grid xl:grid-cols-4 gap-5 md:grid-cols-2 lg:grid-cols-2 grid-cols-1">
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg hover:scale-[1.01] " id="certi">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard} alt="" />
@@ -44,8 +44,8 @@ const Achievment = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
-                <div className="flex flex-col justify-center items-center w-full">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg hover:scale-[1.01] " id="certi">
+                <div className="flex flex-col justify-center items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard2} alt="" />
                   </div>
@@ -64,7 +64,7 @@ const Achievment = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg hover:scale-[1.01] " id="certi">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard3} alt="" />
@@ -84,7 +84,7 @@ const Achievment = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg shadow-xl">
+              <div className="bg-white flex flex-col items-center justify-center px-16 lg:px-20 py-12 gap-4 rounded-lg hover:scale-[1.01] " id="certi">
                 <div className="flex flex-col items-center w-full gap-3">
                   <div>
                     <img src={acheivmentcard4} alt="" />

@@ -47,12 +47,12 @@ export const icon4 = "https://ik.imagekit.io/jjyo3gsee/Rainbow%20Themes/rainbow%
 // contact images 
 export const contactimg =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/rafiki.png?updatedAt=1724493855282"
 export const reviwe = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/WhatsApp%20Image%202024-07-09%20at%2014.01.57.png?updatedAt=1724522544880"
-export const header = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20929.png?updatedAt=1724571566225"
-export const header720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20931.png?updatedAt=1724572101504"
-export const header440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20932.png?updatedAt=1724572109888"
-export const abouth720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20781.png?updatedAt=1724571925948"
-export const abouth = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20929%20(1).png?updatedAt=1724571854930"
-export const abouth440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20780.png?updatedAt=1724571926190"
+export const header = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/contact1440.png?updatedAt=1725420148594"
+export const header720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/contact748.png?updatedAt=1725420144828"
+export const header440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/contact360.png?updatedAt=1725420133604"
+export const abouth720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about768.png?updatedAt=1725466450864"
+export const abouth = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about1440.png?updatedAt=1725466452021"
+export const abouth440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/about360.png?updatedAt=1725466451049"
 
 export const acheivmentcard = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-1.png?updatedAt=1724602732946"
 export const acheivmentcard2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-2.png?updatedAt=1724602732946"
@@ -66,3 +66,11 @@ export const blogcard4 ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/girl-
 
 // blog details page image 
 export const dimg ="https://ik.imagekit.io/jjyo3gsee/HI-Study/image/blog_standard01.jpg?updatedAt=1724750390606"
+
+export const bloghead1440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/blog1440.png?updatedAt=1725466451723"
+export const bloghead745 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/blog768.png?updatedAt=1725466451722"
+export const blogheadmob = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/blog320.png?updatedAt=1725466451369"
+export const insta = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/insta.png?updatedAt=1725283671089"
+export const WhatsApp = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/logos_whatsapp-icon.png?updatedAt=1725283780457"
+export const youtube ="https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/logos_youtube-icon.png?updatedAt=1725283781228"
+export const linkedin = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/linkedin.png?updatedAt=1725283670934"

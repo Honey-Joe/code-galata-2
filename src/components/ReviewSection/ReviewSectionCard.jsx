@@ -5,7 +5,7 @@ const ReviewSectionCard = () => {
   return (
     <>
      <div className='2xl:container '>
-            <div className='w-[100%] grid grid-cols-1 px-6 gap-3 '>
+            <div className='w-[100%] grid grid-cols-1 px-1 md:px-6 gap-3 '>
               <div >
                 <div className='px-10 py-10 shadow-xl flex flex-col gap-5 rounded-3xl my-4'>
                 <div className='flex justify-center'>
@@ -16,15 +16,15 @@ const ReviewSectionCard = () => {
                 </div>
                 <hr />
                 <div className='flex justify-center gap-3'>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
-                  <Star size={16} color='#2581F2' fill='#2581F2'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
+                  <Star size={16} color='#1176F0' fill='#1176F0'></Star>
                 </div>
                 <div className=' flex flex-col items-center justify-center'>
-                  <p className=' font-bold font-[poppins]'>SUGANTH PV</p>
-                  <p className=' font-[poppins] text-[14px]'>SRI SAIRAM ENGINEERING COLLEGE</p>
+                  <p className=' font-bold font-[poppins] text-center'>SUGANTH PV</p>
+                  <p className=' font-[poppins] text-[14px] text-center'>SRI SAIRAM ENGINEERING COLLEGE</p>
                 </div>
                 </div>
                 <div className='flex gap-2 justify-center items-center'>

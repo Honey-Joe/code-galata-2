@@ -1,18 +1,17 @@
 import CounterAu from "../../CounterAu/CounterAu"
-import Course from "../../Course/Course"
 import Hard from "../../Hard/Hard"
-import HowWeWork from "../../HowWeWork/HowWeWork"
 import InstructorAu from "../../InstructorAu/InstructorAu"
+import Course from "../Course/Course"
 import Faq from "../Faq/Faq"
+import Herosection from "../Herosection/Herosection"
 
 const Body = () => {
   return (
     <>
         <div className=''>
-          <CounterAu/>
+          <Herosection></Herosection>
           <Hard/>
-          <Course/>
-          <HowWeWork/>
+          <Course></Course>
           <InstructorAu/>
           <Faq></Faq>
         </div>

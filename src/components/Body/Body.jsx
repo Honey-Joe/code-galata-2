@@ -4,6 +4,7 @@ import NewsLetter from '../NewsLetter/NewsLetter'
 import HowWeWork from '../HowWeWork/HowWeWork'
 import Homebody from '../Homecard/Homebody'
 import Achievment from '../Achievment/Achievment'
+import Blogsection from '../BlogSection/Blogsection'
 
 const Body = () => {
   return (
@@ -17,6 +18,7 @@ const Body = () => {
       <HowWeWork/>
       <ReviewSection></ReviewSection>
       <NewsLetter/>
+      <Blogsection></Blogsection>
       </div>
       </div>
       

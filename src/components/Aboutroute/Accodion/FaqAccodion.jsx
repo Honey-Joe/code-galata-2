@@ -18,7 +18,7 @@ const FaqAccodion = ({title , desc , open, toggle}) => {
             <Collapse isOpened={open} className={`transition-all duration-300 ease-in-out text-slate-600 text-sm ${open? 'transition ease-in-out duration-300':''} `} >
                 <div>
                     <div className=" overflow-hidden px-2 transition ">
-                        <p className=" text-[14px] text-[#6c6f70] py-3 leading-[25px] font-[manrope] px-3">{desc}</p>
+                        <p className=" text-[14px] text-[#6c6f70] py-3 leading-[25px] font-[poppins] px-3">{desc}</p>
                     </div>
                 </div>
             </Collapse>

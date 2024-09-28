@@ -11,9 +11,9 @@ const Navbar = () => {
           <div className="">
             <img src={navlogo} alt="logo" width={100} />
           </div>
-          <div className="flex items-center justify-end lg:col-span-2 ">
+          <div className="flex items-center justify-end lg:col-span-2">
             <div className={`lg:block ${toggle?'block ' :' hidden'}`}>
-              <div className=" lg:flex gap-20 absolute left-0 top-20 lg:static bg-white w-[100%] lg:mt-0 -mt-6 z-50 ">
+              <div className=" lg:flex gap-20 absolute -left-6 md:-left-10 top-20 lg:static bg-white w-[115%] md:w-[118%] lg:mt-0 -mt-6 z-50 ">
                 <div>
                   <ul className=" lg:flex lg:gap-9 space-y-3 lg:space-y-0 items-center justify-center ">
                     <li className=" text-[15px] font-bold font-[poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">

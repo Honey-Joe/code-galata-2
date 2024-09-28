@@ -43,18 +43,18 @@ function ReviewSection() {
   };
   return (
     <>
-      <div className="max-w-[100%] mx-auto">
-        <div className="w-[90%] mx-auto grid grid-cols-1 my-11 gap-4 px-5 py-2">
+      <div className="max-w-[100%] mx-auto py-[20px] lg:py-[40px]">
+        <div className= "w-[95%] md:w-[90%] mx-auto grid grid-cols-1 my-11 gap-4 px-5 py-2">
           <div className="flex items-center">
-            <div className='px-5 py-[5px] rounded-3xl bg-[#2581F2] relative left-3'>
+            <div className='px-5 py-[5px] rounded-3xl bg-[#1176F0] relative left-3'>
 
                 </div>
-            <div className="px-4 py-2 border-[1px] border-[#2581F2] rounded-3xl">
+            <div className="px-4 py-2 border-[1px] border-[#1176F0] rounded-3xl">
                 <p className="font-[poppins] font-bold text-base text-center">Testimonial</p>
             </div>
           </div>
           <div>
-            <p className="font-[poppins] font-bold text-[30px]">WHAT OUR <span className="text-[#2581f2] underline">CUSTOMER SAYS</span></p>
+            <p className="font-[poppins] font-bold text-[24px] md:text-[34px]">WHAT OUR <span className="text-[#1176F0] underline">CUSTOMER SAYS</span></p>
           </div>
           <div className="slider-container ">
             <Slider {...settings}>

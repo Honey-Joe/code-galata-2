@@ -48,8 +48,9 @@ import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
   return (
     <>
     <div className='2xl:container'>
-      <div className='lg:w-[100%] lg:ml-[6%] w-[80%] mx-auto grid grid-cols-1 mb-28'>
+      <div className='lg:w-[110%] lg:ml-[0%] w-[87%] mx-auto grid grid-cols-1 mb-28'>
       <Tabs defaultValue={1}>
+<<<<<<< HEAD
           <TabsList className='pb-3'>
             <div className='slider-container'>
               <Slider {...settings}>
@@ -82,12 +83,47 @@ import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
                   } text-[18px] font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
                 }),
               }}>
+=======
+      <TabsList className='pb-3'>
+        <div className='slider-container'>
+          <Slider {...settings}>
+            <div>
+        <Tab value={1} slotProps={{
+            root: ({ selected, disabled }) => ({
+              className: `font-[poppins]  border-b-4 ${
+                selected
+                  ? 'text-[#1363df] border-b-4 border-[#1363df] '
+                  : 'text-[#39557e]'
+              } ${
+                disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
+              } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+            }),
+          }}>
+          
+          <button  className=''>Course Info</button>
+          </Tab>
+
+            </div>
+            <div>
+        <Tab value={2} slotProps={{
+            root: ({ selected, disabled }) => ({
+              className: `font-[poppins] border-b-4 ${
+                selected
+                  ? 'text-[#1363df] border-b-4 border-[#1363df] '
+                  : 'text-[#39557e]'
+              } ${
+                disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
+              } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+            }),
+          }}>
+>>>>>>> 714715a50c849fabfbebe5a7e2cdf8e82d69da74
 
               <button className=''>
                 Curriculam
               </button>
             </Tab>
 
+<<<<<<< HEAD
                 </div>
                 <div>
             <Tab value={3} slotProps={{
@@ -106,6 +142,42 @@ import { Tab, TabPanel, Tabs, TabsList } from "@mui/base";
 
               </button>
               
+=======
+            </div>
+            <div>
+        <Tab value={3} slotProps={{
+            root: ({ selected, disabled }) => ({
+              className: `font-[poppins]  border-b-4 ${
+                selected
+                  ? 'text-[#1363df] border-b-4 border-[#1363df] '
+                  : 'text-[#39557e]'
+              } ${
+                disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
+              } text-[14px] lg:text-[18px]   font-semibold w-full px-1 py-2  flex justify-center focus:outline-0`,
+            }),
+          }}>
+          <button className=''>
+          Review
+
+          </button>
+          
+          </Tab>
+
+            </div>
+            <div>
+              <Tab value={4} slotProps={{
+            root: ({ selected, disabled }) => ({
+              className: `font-[poppins] border-b-4 ${
+                selected
+                  ? 'text-[#1363df] border-b-4 border-[#1363df] '
+                  : 'text-[#39557e]'
+              } ${
+                disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'
+              } text-[14px] lg:text-[18px]  font-semibold w-full px-1 py-2   flex justify-center focus:outline-0`,
+            }),
+          }}>
+                <button className=''>Announcement</button>
+>>>>>>> 714715a50c849fabfbebe5a7e2cdf8e82d69da74
               </Tab>
 
                 </div>
