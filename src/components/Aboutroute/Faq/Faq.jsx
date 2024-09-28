@@ -12,20 +12,24 @@ const Faq = () => {
     }
     const accordionData = [
         {
-            title:"1. Why choose us for your education?",
-            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+            title:"1. What services does CodeGalatta offer?",
+            desc:"At CodeGalatta, we provide courses in four core programming languages: C, C++, Java, and Python (including Python with AI). We focus on building practical coding and problem-solving skills, tailored to help students excel in the tech world."
         },
         {
-            title:"2. Why choose us for your education?",
-            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+            title:"2. Who can enroll in CodeGalatta's courses?",
+            desc:"Our courses are designed for all students, whether you are a complete beginner or looking to enhance your tech skills. We have successfully trained over 7,000 students, including those from top institutions like CEG Anna University and PSG Tech."
         },
         {
-            title:"3. What We Offer To You?",
-            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+            title:"3. What makes CodeGalatta different from other coding platforms?",
+            desc:"We don't just teach programming; we prepare students for real-world challenges by focusing on practical skills and digital portfolio building. We also provide support in creating and optimizing LinkedIn profiles to boost career prospects."
         },
         {
-            title:"How We Provides Service For You?",
-            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+            title:"4. How can I enroll in a course at CodeGalatta?",
+            desc:" Enrollment is simple! You can register for our upcoming batches directly through our website. If you have any questions, our support contact number is available to assist you."
+        },
+        {
+            title:"5. Do CodeGalatta courses offer any certifications",
+            desc:" Yes! Upon successful completion of our courses, students receive a certification that adds value to their professional profiles and resumes. This can help increase their job prospects in the tech industry."
         },
     ]
   return (
